@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="81886" started-at="2019-06-03T15:41:29Z" finished-at="2019-06-03T15:42:50Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="81886" started-at="2019-06-03T15:41:29Z" finished-at="2019-06-03T15:42:50Z">
+      <class name="flights.LocalFlightWithoutAddons">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:flights.LocalFlightWithoutAddons@327471b5]" name="beforeTest" is-config="true" duration-ms="53" started-at="2019-06-03T15:41:29Z" finished-at="2019-06-03T15:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:flights.LocalFlightWithoutAddons@327471b5]" name="openApp" is-config="true" duration-ms="8434" started-at="2019-06-03T15:41:29Z" finished-at="2019-06-03T15:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testlocalflight()[pri:0, instance:flights.LocalFlightWithoutAddons@327471b5]" name="testlocalflight" duration-ms="72946" started-at="2019-06-03T15:41:37Z" finished-at="2019-06-03T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlocalflight -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:flights.LocalFlightWithoutAddons@327471b5]" name="afterTest" is-config="true" duration-ms="421" started-at="2019-06-03T15:42:50Z" finished-at="2019-06-03T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- flights.LocalFlightWithoutAddons -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

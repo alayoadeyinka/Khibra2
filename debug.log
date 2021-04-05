@@ -1,0 +1,3 @@
+[0809/085341.698:ERROR:file_io_win.cc(179)] CreateFile C:\Users\ADEYIN~1.ALA\AppData\Local\Temp\scoped_dir26764_12117\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0629/141659.269:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0629/141659.270:ERROR:exception_snapshot_win.cc(98)] thread ID 23636 not found in process

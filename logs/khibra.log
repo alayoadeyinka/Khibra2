@@ -1,0 +1,42 @@
+INFO  - 2021-04-04 07:38:48.490; utils.log; START=AddNewJob--------------------------------------------------------------
+INFO  - 2021-04-04 07:39:04.990; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-04 07:39:09.472; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-04 07:39:11.497; utils.log; Employer Login Successful
+INFO  - 2021-04-04 07:39:53.729; utils.log; END=FAILED
+INFO  - 2021-04-04 07:39:55.182; utils.log; START=AddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-04 07:40:04.686; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-04 07:40:09.134; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-04 07:40:11.153; utils.log; Employer Login Successful
+INFO  - 2021-04-04 07:40:16.779; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-04 07:40:20.868; utils.log; Location Menu Selected
+INFO  - 2021-04-04 07:40:22.961; utils.log; Add New location  Clicked
+INFO  - 2021-04-04 07:40:32.024; utils.log; Title Address, City , Country and Address Entered
+INFO  - 2021-04-04 07:40:32.091; utils.log; Save Button Clicked
+INFO  - 2021-04-04 07:40:34.108; utils.log; Location Was Created Succesfully 
+INFO  - 2021-04-04 07:40:34.109; utils.log; End TEST-------------------------- AddEmployerLocation------------------------
+INFO  - 2021-04-04 07:40:34.109; utils.log; END=PASSED
+INFO  - 2021-04-04 07:40:34.723; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-04 07:40:43.627; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-04 07:40:48.019; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-04 07:40:50.039; utils.log; Employer Login Successful
+INFO  - 2021-04-04 07:40:56.117; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-04 07:40:58.195; utils.log; Image Selected 
+INFO  - 2021-04-04 07:41:10.200; utils.log; End TEST--------------------------ChangeEmployerLogo------------------------
+INFO  - 2021-04-04 07:41:10.200; utils.log; END=PASSED
+INFO  - 2021-04-04 07:41:26.939; utils.log; START=AddNewJob--------------------------------------------------------------
+INFO  - 2021-04-04 07:41:43.892; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-04 07:41:48.368; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-04 07:41:50.390; utils.log; Employer Login Successful
+INFO  - 2021-04-04 07:42:32.751; utils.log; END=FAILED
+INFO  - 2021-04-04 07:43:19.856; utils.log; START=AddNewJob--------------------------------------------------------------
+INFO  - 2021-04-04 07:43:32.763; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-04 07:43:37.235; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-04 07:43:39.259; utils.log; Employer Login Successful
+INFO  - 2021-04-04 07:43:41.431; utils.log; Dropdown  Clicked
+INFO  - 2021-04-04 07:43:43.493; utils.log; Jobs Menu  Clicked
+INFO  - 2021-04-04 07:43:47.284; utils.log; Add New Job Button  Clicked
+INFO  - 2021-04-04 07:44:08.586; utils.log; End TEST-0
+INFO  - 2021-04-04 07:44:20.790; utils.log; End TEST-1
+INFO  - 2021-04-04 07:44:37.310; utils.log; Job Was Created Succesfully 
+INFO  - 2021-04-04 07:44:37.310; utils.log; End TEST-------------------------- AddNewJob------------------------
+INFO  - 2021-04-04 07:44:37.311; utils.log; END=PASSED

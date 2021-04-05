@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="UserAccess.SignIn">
+        <methods>
+          <include name="openApp"/>
+          <include name="screenShot"/>
+          <include name="testSignIn"/>
+        </methods>
+      </class> <!-- UserAccess.SignIn -->
+      <class name="orders.RemoveProductCartItem">
+        <methods>
+          <include name="screenShot"/>
+          <include name="testRemoveProductCartItem"/>
+          <include name="setUp1"/>
+        </methods>
+      </class> <!-- orders.RemoveProductCartItem -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
