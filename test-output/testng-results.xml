@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78246" started-at="2021-04-04T07:43:19 WAT" finished-at="2021-04-04T07:44:37 WAT">
+  <suite name="Default suite" duration-ms="180208" started-at="2021-04-05T09:22:06 WAT" finished-at="2021-04-05T09:25:06 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78246" started-at="2021-04-04T07:43:19 WAT" finished-at="2021-04-04T07:44:37 WAT">
-      <class name="company.AddNewJob">
-        <test-method status="PASS" signature="setUp1()[pri:0, instance:company.AddNewJob@7fc2413d]" name="setUp1" is-config="true" duration-ms="19496" started-at="2021-04-04T07:43:19 WAT" finished-at="2021-04-04T07:43:39 WAT">
+    <test name="Default test" duration-ms="180208" started-at="2021-04-05T09:22:06 WAT" finished-at="2021-04-05T09:25:06 WAT">
+      <class name="university.AddNewEvent">
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:university.AddNewEvent@57d5872c]" name="setUp1" is-config="true" duration-ms="136053" started-at="2021-04-05T09:22:06 WAT" finished-at="2021-04-05T09:24:22 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method status="PASS" signature="testAddNewJob()[pri:0, instance:company.AddNewJob@7fc2413d]" name="testAddNewJob" duration-ms="58050" started-at="2021-04-04T07:43:39 WAT" finished-at="2021-04-04T07:44:37 WAT">
+        <test-method status="PASS" signature="testAddNewEvent()[pri:0, instance:university.AddNewEvent@57d5872c]" name="testAddNewEvent" duration-ms="43901" started-at="2021-04-05T09:24:22 WAT" finished-at="2021-04-05T09:25:06 WAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddNewJob -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:company.AddNewJob@7fc2413d]" name="screenShot" is-config="true" duration-ms="661" started-at="2021-04-04T07:44:37 WAT" finished-at="2021-04-04T07:44:37 WAT">
+        </test-method> <!-- testAddNewEvent -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.AddNewEvent@57d5872c]" name="screenShot" is-config="true" duration-ms="215" started-at="2021-04-05T09:25:06 WAT" finished-at="2021-04-05T09:25:06 WAT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddNewJob status=SUCCESS method=AddNewJob.testAddNewJob()[pri:0, instance:company.AddNewJob@7fc2413d] output={null}]]]>
+                <![CDATA[[TestResult name=testAddNewEvent status=SUCCESS method=AddNewEvent.testAddNewEvent()[pri:0, instance:university.AddNewEvent@57d5872c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-      </class> <!-- company.AddNewJob -->
+      </class> <!-- university.AddNewEvent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

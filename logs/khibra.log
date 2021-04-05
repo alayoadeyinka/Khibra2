@@ -40,3 +40,33 @@ INFO  - 2021-04-04 07:44:20.790; utils.log; End TEST-1
 INFO  - 2021-04-04 07:44:37.310; utils.log; Job Was Created Succesfully 
 INFO  - 2021-04-04 07:44:37.310; utils.log; End TEST-------------------------- AddNewJob------------------------
 INFO  - 2021-04-04 07:44:37.311; utils.log; END=PASSED
+INFO  - 2021-04-05 09:06:24.528; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-05 09:08:52.818; utils.log; START=AddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-05 09:10:06.047; utils.log; START=AddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-05 09:17:13.846; utils.log; START=AddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-05 09:17:35.681; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-05 09:17:40.145; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-05 09:17:43.040; utils.log; Employer Login Successful
+INFO  - 2021-04-05 09:17:54.781; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-05 09:17:58.879; utils.log; Location Menu Selected
+INFO  - 2021-04-05 09:18:00.968; utils.log; Add New location  Clicked
+INFO  - 2021-04-05 09:18:09.973; utils.log; Title Address, City , Country and Address Entered
+INFO  - 2021-04-05 09:18:10.040; utils.log; Save Button Clicked
+INFO  - 2021-04-05 09:18:12.064; utils.log; Location Was Created Succesfully 
+INFO  - 2021-04-05 09:18:12.065; utils.log; End TEST-------------------------- AddEmployerLocation------------------------
+INFO  - 2021-04-05 09:18:12.065; utils.log; END=PASSED
+INFO  - 2021-04-05 09:22:06.548; utils.log; START=AddNewEvent--------------------------------------------------------------
+INFO  - 2021-04-05 09:24:12.441; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-05 09:24:17.037; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-05 09:24:22.526; utils.log; University Login Successful
+INFO  - 2021-04-05 09:24:24.746; utils.log; Menu Dropdown Available
+INFO  - 2021-04-05 09:24:24.811; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-04-05 09:24:29.054; utils.log; Add Event  Button Clicked 
+INFO  - 2021-04-05 09:24:53.139; utils.log; CancButton Button Clicked 
+INFO  - 2021-04-05 09:24:57.972; utils.log; AddNewEventButton	 Button Clicked 
+INFO  - 2021-04-05 09:25:00.126; utils.log; All Event Fields Validated
+INFO  - 2021-04-05 09:25:02.344; utils.log; All Event Fields Entered
+INFO  - 2021-04-05 09:25:06.409; utils.log; Create Event Button Clicked
+INFO  - 2021-04-05 09:25:06.430; utils.log; Event Was Created Succesfully 
+INFO  - 2021-04-05 09:25:06.430; utils.log; End TEST-------------------------- AddNewEvent------------------------
+INFO  - 2021-04-05 09:25:06.430; utils.log; END=PASSED
