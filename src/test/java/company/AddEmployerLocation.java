@@ -86,7 +86,7 @@ public class AddEmployerLocation extends EmployerUtility{
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=AddEmployerLocation--------------------------------------------------------------");
+	  log.info("START=EMPAddEmployerLocation--------------------------------------------------------------");
 
 	  EmployerUtilityclass();
     
@@ -175,7 +175,7 @@ public class AddEmployerLocation extends EmployerUtility{
 
   log.info("Location Was Created Succesfully ");
 		   
-			    log.info("End TEST-------------------------- AddEmployerLocation------------------------");     
+			    log.info("End TEST-------------------------- EMPAddEmployerLocation------------------------");     
 	    
 			    log.info("END=PASSED");
 			 	   

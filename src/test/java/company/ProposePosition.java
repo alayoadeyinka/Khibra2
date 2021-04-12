@@ -1,4 +1,5 @@
- package company;
+
+package company;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;

@@ -142,7 +142,7 @@ Thread.sleep(2000);
   driver.findElement(By.xpath(objectrepo.getProperty("StudGPA")));
   
   driver.findElement(By.xpath(objectrepo.getProperty("StudEmploymentStatus")));	 
-  driver.findElement(By.xpath(objectrepo.getProperty("StudExperience")));
+  driver.findElement(By.xpath(objectrepo.getProperty("StudsExperience")));
   driver.findElement(By.xpath(objectrepo.getProperty("StuGraduation")));
 		  
   log.info("All Students Table Headers Validated  ");	 

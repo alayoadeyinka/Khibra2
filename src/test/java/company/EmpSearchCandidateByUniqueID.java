@@ -132,7 +132,6 @@ public class EmpSearchCandidateByUniqueID extends EmployerUtility{
 			 driver.findElement(By.xpath(objectrepo.getProperty("SearchButton"))).click();	 
 			  log.info("Wrong ID Entered and Search Button Clicked");
 		  	  Thread.sleep(2000);
-			  driver.findElement(By.xpath(objectrepo.getProperty("NoCandidateText")));	 
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmptyResultText")));	 
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmptyResultImage")));	 
 			  log.info("No Results Found was displayed");
@@ -145,8 +144,7 @@ public class EmpSearchCandidateByUniqueID extends EmployerUtility{
 		 driver.findElement(By.xpath(objectrepo.getProperty("SearchButton"))).click();	 
 		  log.info("Correct ID Entered and Search Button Clicked");
 	  	  Thread.sleep(2000);
-		  driver.findElement(By.xpath(objectrepo.getProperty("SearchResultText")));	 
-
+ 
 	  	
 	  	 driver.getPageSource().contains(ID);
 

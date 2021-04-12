@@ -107,49 +107,20 @@ try{
 			  log.info("Dashboard Button Clicked ");
 	     Thread.sleep(2000);
  
+			
 			  driver.findElement(By.xpath(objectrepo.getProperty("DashboardHeader")));	 
 			  driver.findElement(By.xpath(objectrepo.getProperty("AlumniLabel")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("EnrolledIcon")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("InterviewedIcon")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("HiredIcon")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("EnrolledCount")));	
-  String EnrolledCount=  driver.findElement(By.xpath(objectrepo.getProperty("EnrolledCount"))).getText()  ;   
-    	      log.info("Enrolled Count is ");
-    	      log.info(EnrolledCount);
-    	      Thread.sleep(1000);
+			  driver.findElement(By.xpath(objectrepo.getProperty("TopIndustriesLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("CurrentPastGradLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("CurrentPastGradChart")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("StudAlumniDemoLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("StudAlumniDemoChart")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AcademicStatsLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AcademicStatsChart")));
+ 
 			  
-    	      
-    	      
-    	      
-    	      driver.findElement(By.xpath(objectrepo.getProperty("EnrolledStudentsChart")));	
+			  log.info("Dashboard Page displayed and all Charts Validated ");
 			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("EnrolledLabel")));	 
-
-			  driver.findElement(By.xpath(objectrepo.getProperty("InterviewedCount")));	 
-			  
-			  String InterviewedCount=  driver.findElement(By.xpath(objectrepo.getProperty("InterviewedCount"))).getText()  ;   
-    	      log.info("Interviewed Count is ");
-    	      log.info(InterviewedCount);
-    	      Thread.sleep(1000);
-			  
-			  
-			  
-			  
-			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("IntervewedLabel")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("HiredCount")));	
-			  String HiredCount=  driver.findElement(By.xpath(objectrepo.getProperty("HiredCount"))).getText()  ;   
-    	      log.info("Hired Count is ");
-    	      log.info(HiredCount);
-    	      Thread.sleep(1000);
-			  
-			  
-			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("HiredLabel")));	 
-
-			  driver.findElement(By.xpath(objectrepo.getProperty("PerMonthDropdown")));	 
- 			  
-			  log.info("All Dashboard Elements Validated ");
 			  
 			  
 			  

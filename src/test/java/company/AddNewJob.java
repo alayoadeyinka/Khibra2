@@ -86,7 +86,7 @@ public class AddNewJob extends EmployerUtility{
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=AddNewJob--------------------------------------------------------------");
+	  log.info("START=EmpAddNewJob--------------------------------------------------------------");
 
 	  EmployerUtilityclass();
     
@@ -184,6 +184,10 @@ public class AddNewJob extends EmployerUtility{
 	  driver.findElement(By.xpath(objectrepo.getProperty("GCCOnluy"))).click();
 
 	  
+	  driver.findElement(By.xpath(objectrepo.getProperty("JobURLText")));
+	  driver.findElement(By.xpath(objectrepo.getProperty("JobURLTextbox")));
+
+	  
 	  driver.findElement(By.xpath(objectrepo.getProperty("JobNationality"))).click();
 	  keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.ENTER)).perform();
 	  Thread.sleep(2000);
@@ -256,7 +260,7 @@ public class AddNewJob extends EmployerUtility{
 			  
  			  
 		   
-			    log.info("End TEST-------------------------- AddNewJob------------------------");     
+			    log.info("End TEST-------------------------- EmpAddNewJob------------------------");     
 	    
 			    log.info("END=PASSED");
 			 	   

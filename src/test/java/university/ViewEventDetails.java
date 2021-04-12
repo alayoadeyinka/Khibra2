@@ -193,13 +193,8 @@ driver.findElement(By.xpath(objectrepo.getProperty("EmployersSessionHeader")));
 
 log.info("Event Sessions Page Validated  ");
 
-driver.findElement(By.xpath(objectrepo.getProperty("EventAnalyticsTab"))).click();
-log.info("Analytics TAB clicked  ");
-
-
-
-
-
+ 
+ 
 			    log.info("End TEST-------------------------- ViewEventDetails------------------------");     
 	    
 			    log.info("END=PASSED");

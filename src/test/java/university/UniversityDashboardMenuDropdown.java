@@ -106,12 +106,8 @@ public class UniversityDashboardMenuDropdown extends UniversityUtility{
 			  Thread.sleep(2000);
 			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("DashboardHeader")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("AlumniLabel")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("EnrolledIcon")));
-			  
-			  
-			  log.info("Dashboard Page displayed ");
-			  
+			  log.info("UniDashboard Page Opened ");
+
 			  
 			  
 		   

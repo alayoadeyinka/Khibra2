@@ -84,7 +84,7 @@ public class EmpSearchCandidateByName extends EmployerUtility{
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=LoginPageEmpSearchCandidateByNameElements--------------------------------------------------------------");
+	  log.info("START=LoginPageEmpSearchCandidateByName--------------------------------------------------------------");
 
 	  EmployerUtilityclass();
     

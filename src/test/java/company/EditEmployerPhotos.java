@@ -99,9 +99,6 @@ public class EditEmployerPhotos extends EmployerUtility{
 	public void testEditEmployerPhotos() throws Exception {
 		  
 		  try{
-			  
-			   
-				   
 		 
    driver.findElement(By.xpath(objectrepo.getProperty("EmployerProfileMenu"))).click();	 
 		  log.info("Employer Profile MenuClicked");

@@ -109,7 +109,10 @@ Thread.sleep(2000);
 				  Cell cell1 = title.getCell(1);
 				  String JobTitle  = cell1.getStringCellValue();
 			  
-			  
+				  driver.findElement(By.xpath(objectrepo.getProperty("EmpMenuDropdown"))).click();	 
+			  	  log.info("Dropdown  Clicked");
+			  	  Thread.sleep(2000);
+			  	  
 driver.findElement(By.xpath(objectrepo.getProperty("JobsMenu"))).click();	 
 	  log.info("Jobs Menu  Clicked");
 	  Thread.sleep(2000);
