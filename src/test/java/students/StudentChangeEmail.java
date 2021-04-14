@@ -79,12 +79,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
-public class StudentAboutPage extends LoginUtility{
+public class StudentChangeEmail extends LoginUtility{
 	 
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=StudentAboutPage--------------------------------------------------------------");
+	  log.info("START=StudentChangeEmail--------------------------------------------------------------");
 
 	  Loginutilityclass();
     
@@ -96,28 +96,70 @@ public class StudentAboutPage extends LoginUtility{
 	  @SuppressWarnings("rawtypes")
 	@Test
 	
-	public void testStudentAboutPage() throws Exception {
+	public void testStudentChangeEmail() throws Exception {
 	     try {
-	    	 
+	    	 String filePath = System.getProperty("user.dir");
+		 	  FileInputStream fis = new FileInputStream(filePath+"/config/Testdata.xlsx");
+			    XSSFWorkbook workbook = new XSSFWorkbook(fis); 			  
+				  XSSFSheet sheets = workbook.getSheet("Students");
+	 	  
+				  Row email = sheets.getRow(8);
+				  Cell cell1 = email.getCell(1);
+				  String Email  = cell1.getStringCellValue();
+				  
+				  Row wrongemail = sheets.getRow(7);
+				  Cell cell2 = wrongemail.getCell(1);
+				  String wrongEmail  = cell2.getStringCellValue();
+				  
+				  
+				
+				  
+				  
+				  
+				  
+				  
+				  
+				  
 	    	 
 	    	  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
 			  log.info("Menu Dropdown Clicked");
-			  driver.findElement(By.xpath(objectrepo.getProperty("AboutMenu"))).click();	 
-			  log.info("About Menu Selected");
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountMenu"))).click();	 
+			  log.info("My Account Selected");
 			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("VersionSection")));
-			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("InformationCenterText")));
-			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("WelcomeTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ReleaseNoteTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ComingSoonTab"))).click();
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountHeader")));
+			  
+			  log.info("My Account Page opened ");
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountSettingsTab"))).click();
+              Thread.sleep(2000);
+              log.info("Settings Tab Clicked ");
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountEmailEdit"))).click();
+			  Thread.sleep(2000);
+			  log.info("Edit Email Icon Clicked ");
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountNewEmailBox"))).clear();
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountNewEmailBox"))).sendKeys(wrongEmail);
+			  log.info("Wrong Email entered");
+			   driver.findElement(By.xpath(objectrepo.getProperty("AccountWrongEmailError")));
+			   log.info("Wrong Email Error displayed ");
+			   driver.findElement(By.xpath(objectrepo.getProperty("AccountNewEmailBox"))).clear();
+				  driver.findElement(By.xpath(objectrepo.getProperty("AccountNewEmailBox"))).sendKeys(Email);
+				  log.info("Correct email entered");
+				  
+				  
+			  
+			  
+		   driver.findElement(By.xpath(objectrepo.getProperty("OkButton"))).click();
+	    Thread.sleep(2000);
+	    log.info("OK Button Clicked ");
+	   driver.findElement(By.xpath(objectrepo.getProperty("EmailVerificationText")));
+ 
+			  log.info("Email was changed successfully and verification email text is displayed ");
 
-			  log.info("Version Number Release Notes, Welcome and Coming Soon Tabs Validated");
-
-			    log.info("End TEST-------------------------- StudentAboutPage------------------------");     
+			  driver.findElement(By.xpath(objectrepo.getProperty("OkButton"))).click();
+			    Thread.sleep(2000);
+			  
+			  
+			    log.info("End TEST-------------------------- StudentChangeEmail------------------------");     
 	    
 			    log.info("END=PASSED");
 		  	    

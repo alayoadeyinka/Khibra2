@@ -79,12 +79,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
-public class StudentAboutPage extends LoginUtility{
+public class StudentChangeLanguage extends LoginUtility{
 	 
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=StudentAboutPage--------------------------------------------------------------");
+	  log.info("START=StudentChangeLanguage--------------------------------------------------------------");
 
 	  Loginutilityclass();
     
@@ -96,28 +96,50 @@ public class StudentAboutPage extends LoginUtility{
 	  @SuppressWarnings("rawtypes")
 	@Test
 	
-	public void testStudentAboutPage() throws Exception {
+	public void testStudentChangeLanguage() throws Exception {
 	     try {
 	    	 
+				  
 	    	 
 	    	  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
 			  log.info("Menu Dropdown Clicked");
-			  driver.findElement(By.xpath(objectrepo.getProperty("AboutMenu"))).click();	 
-			  log.info("About Menu Selected");
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountMenu"))).click();	 
+			  log.info("My Account Selected");
 			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("VersionSection")));
-			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("InformationCenterText")));
-			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("WelcomeTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ReleaseNoteTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ComingSoonTab"))).click();
-
-			  log.info("Version Number Release Notes, Welcome and Coming Soon Tabs Validated");
-
-			    log.info("End TEST-------------------------- StudentAboutPage------------------------");     
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountHeader")));
+			  
+			  log.info("My Account Page opened ");
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountSettingsTab"))).click();
+              Thread.sleep(2000);
+              log.info("Settings Tab Clicked ");
+              Thread.sleep(2000);
+       
+ 
+			   driver.findElement(By.xpath(objectrepo.getProperty("ArabicLanguageRadio"))).click();
+              
+			   log.info("Arabic Radio Button Clicked  ");
+				  driver.findElement(By.xpath(objectrepo.getProperty("LanguageChangeSuccess")));
+				   log.info("Language change success message displayed ");
+			   Thread.sleep(2000);
+				   driver.findElement(By.xpath("//label[contains(.,'العربية')]"));
+				   driver.findElement(By.xpath("//label[contains(.,'الإنجليزية')]"));
+ 				   log.info("Arabic Texts Validated  ");
+				   
+				   
+				   driver.findElement(By.xpath("//label[contains(.,'الإنجليزية')]")).click();
+				   log.info("English  Radio Button Clicked  ");
+				   driver.findElement(By.xpath(objectrepo.getProperty("LanguageChangeSuccess")));
+				   log.info("Language change success message displayed ");
+				   Thread.sleep(2000);
+				   
+				   driver.findElement(By.xpath("//label[contains(.,'English')]"));
+				   
+				   log.info("Language Changed Back to English ");
+				   
+				   
+				   
+			  
+			    log.info("End TEST-------------------------- StudentChangeLanguage------------------------");     
 	    
 			    log.info("END=PASSED");
 		  	    

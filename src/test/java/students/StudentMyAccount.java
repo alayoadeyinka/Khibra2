@@ -79,12 +79,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
-public class StudentAboutPage extends LoginUtility{
+public class StudentMyAccount extends LoginUtility{
 	 
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=StudentAboutPage--------------------------------------------------------------");
+	  log.info("START=StudentMyAccount--------------------------------------------------------------");
 
 	  Loginutilityclass();
     
@@ -96,28 +96,63 @@ public class StudentAboutPage extends LoginUtility{
 	  @SuppressWarnings("rawtypes")
 	@Test
 	
-	public void testStudentAboutPage() throws Exception {
+	public void testStudentMyAccount() throws Exception {
 	     try {
 	    	 
 	    	 
 	    	  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
 			  log.info("Menu Dropdown Clicked");
-			  driver.findElement(By.xpath(objectrepo.getProperty("AboutMenu"))).click();	 
-			  log.info("About Menu Selected");
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountMenu"))).click();	 
+			  log.info("My Account Selected");
 			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("VersionSection")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountHeader")));
 			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("InformationCenterText")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountPersonalInfoTab")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountSettingsTab")));
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountPersonalInfoTab"))).click();
+              Thread.sleep(2000);
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountFirstName")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountMiddleName")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountLastName")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountDOB")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountGender")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountFnameBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountMnameBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountLnameBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountDOBBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountGenderDrop")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("SaveButton")));
+
+			  
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountSettingsTab"))).click();
+              Thread.sleep(2000);
+              
+              driver.findElement(By.xpath(objectrepo.getProperty("LoginInfoText")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountEmailLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountEmailBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountEmailEdit")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("ChangePasswordLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("OldpasswordBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("NewPasswordBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("ConfirmPasswordBox")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountLanguageLabel")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("EnglishLanguageRadio")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("ArabicLanguageRadio")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("EnglishLanguagetext")));
+
 			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("WelcomeTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ReleaseNoteTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ComingSoonTab"))).click();
+			  
+			  log.info("All My Account Fields Validated");
 
-			  log.info("Version Number Release Notes, Welcome and Coming Soon Tabs Validated");
-
-			    log.info("End TEST-------------------------- StudentAboutPage------------------------");     
+		 
+					 
+			  
+			  
+			  
+			  
+			    log.info("End TEST-------------------------- StudentMyAccount------------------------");     
 	    
 			    log.info("END=PASSED");
 		  	    

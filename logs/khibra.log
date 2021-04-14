@@ -945,3 +945,187 @@ INFO  - 2021-04-12 15:27:05.552; utils.log; Search Button  Clicked
 INFO  - 2021-04-12 15:27:07.585; utils.log; Job was displayed in Open Section  
 INFO  - 2021-04-12 15:27:07.585; utils.log; End TEST-------------------------- SearchOpenJobs------------------------
 INFO  - 2021-04-12 15:27:07.586; utils.log; END=PASSED
+INFO  - 2021-04-13 08:22:41.612; utils.log; START=StudentMyAccount--------------------------------------------------------------
+INFO  - 2021-04-13 08:22:56.442; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-13 08:23:00.849; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-13 08:23:03.227; utils.log; Login Successful
+INFO  - 2021-04-13 08:23:03.298; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-13 08:23:03.351; utils.log; My Account Selected
+INFO  - 2021-04-13 08:23:06.617; utils.log; My Account Fields Validated
+INFO  - 2021-04-13 08:23:06.618; utils.log; End TEST-------------------------- StudentMyAccount------------------------
+INFO  - 2021-04-13 08:23:06.618; utils.log; END=PASSED
+INFO  - 2021-04-13 08:33:02.020; utils.log; START=StudentMyAccount--------------------------------------------------------------
+INFO  - 2021-04-13 08:33:15.320; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-13 08:33:19.675; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-13 08:33:22.156; utils.log; Login Successful
+INFO  - 2021-04-13 08:33:22.219; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-13 08:33:22.269; utils.log; My Account Selected
+INFO  - 2021-04-13 08:33:28.102; utils.log; All My Account Fields Validated
+INFO  - 2021-04-13 08:33:28.102; utils.log; End TEST-------------------------- StudentMyAccount------------------------
+INFO  - 2021-04-13 08:33:28.103; utils.log; END=PASSED
+INFO  - 2021-04-13 08:42:56.793; utils.log; START=StudentChangePersonalInfo--------------------------------------------------------------
+INFO  - 2021-04-13 08:43:10.303; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-13 08:43:14.653; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-13 08:43:16.740; utils.log; Login Successful
+INFO  - 2021-04-13 08:43:16.890; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-13 08:43:16.950; utils.log; My Account Selected
+INFO  - 2021-04-13 08:43:27.114; utils.log; All My Account Fields Validated
+INFO  - 2021-04-13 08:43:27.114; utils.log; End TEST-------------------------- StudentChangePersonalInfo------------------------
+INFO  - 2021-04-13 08:43:27.115; utils.log; END=PASSED
+INFO  - 2021-04-13 08:44:44.159; utils.log; START=StudentChangePersonalInfo--------------------------------------------------------------
+INFO  - 2021-04-13 08:44:56.859; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-13 08:45:01.209; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-13 08:45:03.233; utils.log; Login Successful
+INFO  - 2021-04-13 08:45:03.382; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-13 08:45:03.454; utils.log; My Account Selected
+INFO  - 2021-04-13 08:45:11.170; utils.log; All My Account Fields Validated
+INFO  - 2021-04-13 08:45:11.171; utils.log; End TEST-------------------------- StudentChangePersonalInfo------------------------
+INFO  - 2021-04-13 08:45:11.171; utils.log; END=PASSED
+INFO  - 2021-04-13 08:59:44.523; utils.log; START=StudentChangeEmail--------------------------------------------------------------
+INFO  - 2021-04-13 08:59:56.926; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-13 09:00:01.274; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-13 09:00:03.460; utils.log; Login Successful
+INFO  - 2021-04-13 09:00:03.609; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-13 09:00:03.682; utils.log; My Account Selected
+INFO  - 2021-04-13 09:00:06.549; utils.log; My Account Page opened 
+INFO  - 2021-04-13 09:00:08.651; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-13 09:00:10.714; utils.log; Edit Email Icon Clicked 
+INFO  - 2021-04-13 09:00:10.816; utils.log; Wrong Email entered
+INFO  - 2021-04-13 09:00:10.829; utils.log; Wrong Email Error displayed 
+INFO  - 2021-04-13 09:00:10.927; utils.log; Correct email entered
+INFO  - 2021-04-13 09:00:12.976; utils.log; OK Button Clicked 
+INFO  - 2021-04-13 09:00:12.992; utils.log; Email was changed successfully and verification email text is displayed 
+INFO  - 2021-04-13 09:00:12.992; utils.log; End TEST-------------------------- StudentChangeEmail------------------------
+INFO  - 2021-04-13 09:00:12.992; utils.log; END=PASSED
+INFO  - 2021-04-13 09:00:30.631; utils.log; START=StudentChangeEmail--------------------------------------------------------------
+INFO  - 2021-04-13 09:00:41.032; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-13 09:00:45.389; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-13 09:00:47.689; utils.log; Login Successful
+INFO  - 2021-04-13 09:00:47.851; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-13 09:00:47.902; utils.log; My Account Selected
+INFO  - 2021-04-13 09:00:48.930; utils.log; My Account Page opened 
+INFO  - 2021-04-13 09:00:51.042; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-13 09:00:53.280; utils.log; Edit Email Icon Clicked 
+INFO  - 2021-04-13 09:00:53.381; utils.log; Wrong Email entered
+INFO  - 2021-04-13 09:00:53.394; utils.log; Wrong Email Error displayed 
+INFO  - 2021-04-13 09:00:53.493; utils.log; Correct email entered
+INFO  - 2021-04-13 09:00:55.547; utils.log; OK Button Clicked 
+INFO  - 2021-04-13 09:00:55.564; utils.log; Email was changed successfully and verification email text is displayed 
+INFO  - 2021-04-13 09:00:57.603; utils.log; End TEST-------------------------- StudentChangeEmail------------------------
+INFO  - 2021-04-13 09:00:57.604; utils.log; END=PASSED
+INFO  - 2021-04-14 06:59:11.389; utils.log; START=StudentChangePassword--------------------------------------------------------------
+INFO  - 2021-04-14 06:59:27.682; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-14 06:59:32.039; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-14 06:59:34.126; utils.log; Login Successful
+INFO  - 2021-04-14 06:59:34.285; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-14 06:59:34.363; utils.log; My Account Selected
+INFO  - 2021-04-14 06:59:35.227; utils.log; My Account Page opened 
+INFO  - 2021-04-14 06:59:37.334; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-14 06:59:39.457; utils.log; Password Fields Cleared 
+INFO  - 2021-04-14 07:00:18.603; utils.log; Empty Password Fields Alerts Displayed 
+INFO  - 2021-04-14 07:00:20.702; utils.log; Wrong Old Password  entered
+INFO  - 2021-04-14 07:00:20.806; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:00:20.920; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:00:20.972; utils.log; Save Button Clicked 
+INFO  - 2021-04-14 07:00:30.984; utils.log; END=FAILED
+INFO  - 2021-04-14 07:04:33.753; utils.log; START=StudentChangePassword--------------------------------------------------------------
+INFO  - 2021-04-14 07:04:50.562; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-14 07:04:54.948; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-14 07:04:56.962; utils.log; Login Successful
+INFO  - 2021-04-14 07:04:57.113; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-14 07:04:57.181; utils.log; My Account Selected
+INFO  - 2021-04-14 07:04:57.954; utils.log; My Account Page opened 
+INFO  - 2021-04-14 07:05:00.070; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-14 07:05:02.410; utils.log; Password Fields Cleared 
+INFO  - 2021-04-14 07:05:17.791; utils.log; Empty Password Fields Alerts Displayed 
+INFO  - 2021-04-14 07:05:19.905; utils.log; Wrong Old Password  entered
+INFO  - 2021-04-14 07:05:19.999; utils.log; Short New  Password  entered
+INFO  - 2021-04-14 07:05:20.095; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:05:20.194; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:05:20.250; utils.log; Save Button Clicked 
+INFO  - 2021-04-14 07:05:22.271; utils.log; Incorrect old password alert displayed 
+INFO  - 2021-04-14 07:05:24.362; utils.log; Correct Old Password  entered
+INFO  - 2021-04-14 07:05:24.441; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:05:24.529; utils.log; Wrong New  Password  entered
+INFO  - 2021-04-14 07:05:24.541; utils.log; Wrong password combinations alert displayed 
+INFO  - 2021-04-14 07:05:26.634; utils.log; Correct Old Password  entered
+INFO  - 2021-04-14 07:05:26.712; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:05:26.795; utils.log; correct New  Password  entered
+INFO  - 2021-04-14 07:05:26.838; utils.log; Save Button Clicked 
+INFO  - 2021-04-14 07:05:42.251; utils.log; Password Change successful Message displayed  
+INFO  - 2021-04-14 07:05:42.252; utils.log; End TEST-------------------------- StudentChangePassword------------------------
+INFO  - 2021-04-14 07:05:42.252; utils.log; END=PASSED
+INFO  - 2021-04-14 07:07:41.675; utils.log; START=StudentChangePassword--------------------------------------------------------------
+INFO  - 2021-04-14 07:08:03.013; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-14 07:08:07.390; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-14 07:08:09.522; utils.log; Login Successful
+INFO  - 2021-04-14 07:08:09.671; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-14 07:08:09.720; utils.log; My Account Selected
+INFO  - 2021-04-14 07:08:22.130; utils.log; My Account Page opened 
+INFO  - 2021-04-14 07:08:24.252; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-14 07:08:26.364; utils.log; Short New  Password  entered
+INFO  - 2021-04-14 07:08:26.480; utils.log; Password Fields Cleared 
+INFO  - 2021-04-14 07:08:26.571; utils.log; Wrong Old Password  entered
+INFO  - 2021-04-14 07:08:26.663; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:08:26.743; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:08:26.792; utils.log; Save Button Clicked 
+INFO  - 2021-04-14 07:08:30.506; utils.log; Incorrect old password alert displayed 
+INFO  - 2021-04-14 07:08:32.599; utils.log; Correct Old Password  entered
+INFO  - 2021-04-14 07:08:32.680; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:08:32.795; utils.log; Wrong New  Password  entered
+INFO  - 2021-04-14 07:08:32.819; utils.log; Wrong password combinations alert displayed 
+INFO  - 2021-04-14 07:08:34.913; utils.log; Correct Old Password  entered
+INFO  - 2021-04-14 07:08:34.995; utils.log; New  Password  entered
+INFO  - 2021-04-14 07:08:35.076; utils.log; correct New  Password  entered
+INFO  - 2021-04-14 07:08:35.113; utils.log; Save Button Clicked 
+INFO  - 2021-04-14 07:08:46.006; utils.log; Password Change successful Message displayed  
+INFO  - 2021-04-14 07:08:46.006; utils.log; End TEST-------------------------- StudentChangePassword------------------------
+INFO  - 2021-04-14 07:08:46.007; utils.log; END=PASSED
+INFO  - 2021-04-14 07:30:14.432; utils.log; START=StudentChangeLanguage--------------------------------------------------------------
+INFO  - 2021-04-14 07:30:34.830; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-14 07:30:39.212; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-14 07:30:41.229; utils.log; Login Successful
+INFO  - 2021-04-14 07:30:41.284; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-14 07:30:41.337; utils.log; My Account Selected
+INFO  - 2021-04-14 07:30:42.790; utils.log; My Account Page opened 
+INFO  - 2021-04-14 07:30:44.889; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-14 07:30:47.006; utils.log; Arabic Radio Button Clicked  
+INFO  - 2021-04-14 07:30:47.973; utils.log; Language change success message displayed 
+INFO  - 2021-04-14 07:30:48.008; utils.log; Arabic Texts Validated  
+INFO  - 2021-04-14 07:30:48.050; utils.log; English  Radio Button Clicked  
+INFO  - 2021-04-14 07:30:48.062; utils.log; Language change success message displayed 
+INFO  - 2021-04-14 07:30:48.417; utils.log; Language Changed Back to English 
+INFO  - 2021-04-14 07:30:48.418; utils.log; End TEST-------------------------- StudentChangeLanguage------------------------
+INFO  - 2021-04-14 07:30:48.418; utils.log; END=PASSED
+INFO  - 2021-04-14 07:31:09.599; utils.log; START=StudentChangeLanguage--------------------------------------------------------------
+INFO  - 2021-04-14 07:31:21.129; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-14 07:31:25.486; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-14 07:31:27.752; utils.log; Login Successful
+INFO  - 2021-04-14 07:31:27.806; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-14 07:31:27.859; utils.log; My Account Selected
+INFO  - 2021-04-14 07:31:28.713; utils.log; My Account Page opened 
+INFO  - 2021-04-14 07:31:30.819; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-14 07:31:33.008; utils.log; Arabic Radio Button Clicked  
+INFO  - 2021-04-14 07:31:33.537; utils.log; Language change success message displayed 
+INFO  - 2021-04-14 07:31:33.574; utils.log; Arabic Texts Validated  
+INFO  - 2021-04-14 07:31:33.620; utils.log; English  Radio Button Clicked  
+INFO  - 2021-04-14 07:31:33.630; utils.log; Language change success message displayed 
+INFO  - 2021-04-14 07:31:33.926; utils.log; Language Changed Back to English 
+INFO  - 2021-04-14 07:31:33.926; utils.log; End TEST-------------------------- StudentChangeLanguage------------------------
+INFO  - 2021-04-14 07:31:33.927; utils.log; END=PASSED
+INFO  - 2021-04-14 07:32:06.584; utils.log; START=StudentChangeLanguage--------------------------------------------------------------
+INFO  - 2021-04-14 07:32:19.437; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-14 07:32:23.837; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-04-14 07:32:25.946; utils.log; Login Successful
+INFO  - 2021-04-14 07:32:26.029; utils.log; Menu Dropdown Clicked
+INFO  - 2021-04-14 07:32:26.075; utils.log; My Account Selected
+INFO  - 2021-04-14 07:32:26.910; utils.log; My Account Page opened 
+INFO  - 2021-04-14 07:32:29.021; utils.log; Settings Tab Clicked 
+INFO  - 2021-04-14 07:32:31.139; utils.log; Arabic Radio Button Clicked  
+INFO  - 2021-04-14 07:32:31.619; utils.log; Language change success message displayed 
+INFO  - 2021-04-14 07:32:33.664; utils.log; Arabic Texts Validated  
+INFO  - 2021-04-14 07:32:33.707; utils.log; English  Radio Button Clicked  
+INFO  - 2021-04-14 07:32:33.716; utils.log; Language change success message displayed 
+INFO  - 2021-04-14 07:32:35.737; utils.log; Language Changed Back to English 
+INFO  - 2021-04-14 07:32:35.737; utils.log; End TEST-------------------------- StudentChangeLanguage------------------------
+INFO  - 2021-04-14 07:32:35.737; utils.log; END=PASSED

@@ -79,12 +79,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
-public class StudentAboutPage extends LoginUtility{
+public class StudentChangePersonalInfo extends LoginUtility{
 	 
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=StudentAboutPage--------------------------------------------------------------");
+	  log.info("START=StudentChangePersonalInfo--------------------------------------------------------------");
 
 	  Loginutilityclass();
     
@@ -96,28 +96,74 @@ public class StudentAboutPage extends LoginUtility{
 	  @SuppressWarnings("rawtypes")
 	@Test
 	
-	public void testStudentAboutPage() throws Exception {
+	public void testStudentChangePersonalInfo() throws Exception {
 	     try {
-	    	 
+	    	 String filePath = System.getProperty("user.dir");
+		 	  FileInputStream fis = new FileInputStream(filePath+"/config/Testdata.xlsx");
+			    XSSFWorkbook workbook = new XSSFWorkbook(fis); 			  
+				  XSSFSheet sheets = workbook.getSheet("Students");
+	 	  
+				  Row fname = sheets.getRow(3);
+				  Cell cell1 = fname.getCell(1);
+				  String Fname  = cell1.getStringCellValue();
+				  
+				  
+				  Row mname = sheets.getRow(4);
+				  Cell cell2 = mname.getCell(1);
+				  String Mname  = cell2.getStringCellValue();
+				  
+				  Row lname = sheets.getRow(5);
+				  Cell cell3 = lname.getCell(1);
+				  String Lname  = cell3.getStringCellValue();
+				  
+				  Row dob = sheets.getRow(6);
+				  Cell cell4 = dob.getCell(1);
+				  String DOB  = cell4.getStringCellValue();
+				  
+				  
+				  
+				  
+				  
 	    	 
 	    	  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
 			  log.info("Menu Dropdown Clicked");
-			  driver.findElement(By.xpath(objectrepo.getProperty("AboutMenu"))).click();	 
-			  log.info("About Menu Selected");
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountMenu"))).click();	 
+			  log.info("My Account Selected");
 			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("VersionSection")));
+			  driver.findElement(By.xpath(objectrepo.getProperty("MyAccountHeader")));
 			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("InformationCenterText")));
 			 
-			  driver.findElement(By.xpath(objectrepo.getProperty("WelcomeTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ReleaseNoteTab"))).click();
-		 
-			  driver.findElement(By.xpath(objectrepo.getProperty("ComingSoonTab"))).click();
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountPersonalInfoTab"))).click();
+              Thread.sleep(2000);
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountFnameBox"))).clear();
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountFnameBox"))).sendKeys(Fname);
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountMnameBox"))).clear();
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountMnameBox"))).sendKeys(Mname);
+			 
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountLnameBox"))).clear();
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountLnameBox"))).sendKeys(Lname);
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountDOBBox"))).clear();
+			  driver.findElement(By.xpath(objectrepo.getProperty("AccountDOBBox"))).sendKeys(DOB);
+			  
+			  
+		   driver.findElement(By.xpath(objectrepo.getProperty("AccountGenderDrop"))).click();
+		   driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();
+	    Thread.sleep(2000);
+	   driver.findElement(By.xpath(objectrepo.getProperty("PersonalInfoSuccessMessage")));
 
-			  log.info("Version Number Release Notes, Welcome and Coming Soon Tabs Validated");
+			  
 
-			    log.info("End TEST-------------------------- StudentAboutPage------------------------");     
+			  log.info("personal Details changed and updated successfully");
+
+		 
+					 
+			  
+			  
+			  
+			  
+			    log.info("End TEST-------------------------- StudentChangePersonalInfo------------------------");     
 	    
 			    log.info("END=PASSED");
 		  	    
