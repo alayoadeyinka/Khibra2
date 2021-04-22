@@ -111,11 +111,7 @@ public class EditEmployerLocation extends EmployerUtility{
 				  Cell cell1 = title.getCell(1);
 				  String Title  = cell1.getStringCellValue();
 		  
-				  
-				  
-				  
-				  
-				  
+		  
    driver.findElement(By.xpath(objectrepo.getProperty("EmployerProfileMenu"))).click();	 
 		  log.info("Employer Profile MenuClicked");
 		  Thread.sleep(2000);
@@ -134,18 +130,20 @@ public class EditEmployerLocation extends EmployerUtility{
 
   driver.findElement(By.xpath(objectrepo.getProperty("LocationTitle"))).sendKeys(Title);
    
-  driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();
-  log.info("Save Button Clicked");
-  Thread.sleep(2000);	
+  driver.findElement(By.xpath(objectrepo.getProperty("UpdateButton"))).click();
+  log.info("Update Button Clicked");
+  Thread.sleep(2000);
+  
+  
+  driver.findElement(By.xpath(objectrepo.getProperty("LocationUpdateSuccess"))).click();
+  log.info("Location Update Success Message displayed ");
+  
   
   driver.getPageSource().contains(Title);
 
   log.info("Location Was updated Succesfully ");
    
-    
-  driver.getPageSource().contains(Title);
-
-  log.info("Location Was Created Succesfully ");
+ 
 		   
 			    log.info("End TEST-------------------------- EditEmployerLocation------------------------");     
 	    

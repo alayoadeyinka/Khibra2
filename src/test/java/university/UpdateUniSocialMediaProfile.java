@@ -138,9 +138,10 @@ public class UpdateUniSocialMediaProfile extends UniversityUtility{
 			   driver.findElement(By.xpath(objectrepo.getProperty("UniProfileMenu"))).click();	 
 			   log.info("UniProfileMenu Button Clicked ");
 			    Thread.sleep(2000);  
+			   
+			    driver.findElement(By.xpath(objectrepo.getProperty("UniversityOverview"))).click();	 
+			    log.info("Overview Tab   Clicked ");
 			    
-			    driver.findElement(By.xpath(objectrepo.getProperty("UniversityLogo")));	 
-
 		  driver.findElement(By.xpath(objectrepo.getProperty("EditSocialMediaIcon"))).click();	 
 	  log.info("Social Media Edit Button Clicked ");
 		    driver.findElement(By.xpath(objectrepo.getProperty("CancelButton"))).click();	
@@ -166,13 +167,9 @@ public class UpdateUniSocialMediaProfile extends UniversityUtility{
 		   driver.findElement(By.xpath(objectrepo.getProperty("LinkedInTextbox"))).clear();
 		   driver.findElement(By.xpath(objectrepo.getProperty("TwitterTextbox"))).clear();
 		   driver.findElement(By.xpath(objectrepo.getProperty("YoutubeTextbox"))).clear();
-		   driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();
-		   
+ 
  		   Thread.sleep(2000);
-		   
-		   
-		   driver.findElement(By.xpath(objectrepo.getProperty("EditSocialMediaIcon"))).click();	 
-		   Thread.sleep(2000);
+ 
 		   
 		   driver.findElement(By.xpath(objectrepo.getProperty("WebsiteTextbox"))).sendKeys(Website); 
 		   driver.findElement(By.xpath(objectrepo.getProperty("FacebookTextbox"))).sendKeys(Facebook);	 
@@ -181,11 +178,17 @@ public class UpdateUniSocialMediaProfile extends UniversityUtility{
 		   driver.findElement(By.xpath(objectrepo.getProperty("TwitterTextbox"))).sendKeys(Twitter); 
 		   driver.findElement(By.xpath(objectrepo.getProperty("YoutubeTextbox"))).sendKeys(Youtube);
 		   Thread.sleep(2000);
+ 
 		   log.info("All social Media accounts Updated ");
 		   
 		   driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	
 		 	 Thread.sleep(2000);
 		   log.info("SaveButton Button Clicked ");
+		   
+		   driver.findElement(By.xpath(objectrepo.getProperty("LinksUpdatedSuccess")));	
+		 	 Thread.sleep(2000);
+		   log.info("Links Updated Success Message Displayed  ");
+		   
 		   
 		   driver.getPageSource().contains(Website);
 		   driver.getPageSource().contains(Facebook);

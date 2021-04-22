@@ -126,26 +126,26 @@ public class EmpUploadEmployerPhotos extends EmployerUtility{
 	  log.info("Employer Profile MenuClicked");
 	  Thread.sleep(2000);
 	  
-		 driver.findElement(By.xpath(objectrepo.getProperty("EmpUploadNewPhotoLink"))).click();	 
-		  log.info("Upload New Photo Link Clicked");
-		  Thread.sleep(2000);
-		  
-		  driver.findElement(By.xpath(objectrepo.getProperty("BrowseEmpPhoto"))).sendKeys(System.getProperty("user.dir")+Studentphoto);
-		  log.info("Image Selected ");
-		  Thread.sleep(2000);
-		  
-  driver.findElement(By.xpath(objectrepo.getProperty("PhoneTitleTextbox"))).sendKeys(Title);
 	  
-  driver.findElement(By.xpath(objectrepo.getProperty("PhoneLocation"))).click();
+	  
+	   driver.findElement(By.xpath(objectrepo.getProperty("MediaTab"))).click();	 
+	   Thread.sleep(2000);
+      log.info("Media Tab  clicked");
+	  
+		 driver.findElement(By.xpath(objectrepo.getProperty("UploadMediaButton"))).click();	 
+		  log.info("Upload New media Button Clicked");
+		  Thread.sleep(2000);
+		  
+		  
+  driver.findElement(By.xpath(objectrepo.getProperty("LocationTitle"))).sendKeys(Title);
+	  
+  driver.findElement(By.xpath(objectrepo.getProperty("PhotolocationTextbox"))).sendKeys(Title);
 	 
-  Actions keyDown = new Actions(driver);
-  keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.ENTER)).perform();
- 
-  Thread.sleep(2000);
+   
   
-  driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();
+  driver.findElement(By.xpath(objectrepo.getProperty("SaveContinueButton"))).click();
 
-  driver.getPageSource().contains(Title);
+  driver.findElement(By.xpath(objectrepo.getProperty("NoMediaError")));
 
   log.info("Photo Uploaded Succesfully ");
   

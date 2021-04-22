@@ -117,6 +117,13 @@ public class DeleteEmployerLocation extends EmployerUtility{
 			   Thread.sleep(2000);
 				  log.info("Delete Icon Clicked ");
 			  
+	   driver.findElement(By.xpath(objectrepo.getProperty("ConfirmLocationDeletetext1")));	 
+	  driver.findElement(By.xpath(objectrepo.getProperty("ConfirmLocationDeletetext2")));	 
+	  log.info("Confirm Delete Titles Validated ");
+				  
+				  
+				  
+				  
 				  
 				  driver.findElement(By.xpath(objectrepo.getProperty("NoButton"))).click();	 
 				   Thread.sleep(2000);
@@ -129,14 +136,13 @@ public class DeleteEmployerLocation extends EmployerUtility{
 						  log.info("Delete Icon Clicked ");
 						  
 						  
-						  driver.findElement(By.xpath(objectrepo.getProperty("YesButton"))).click();	 
+						  driver.findElement(By.xpath(objectrepo.getProperty("YesButtons"))).click();	 
 						   Thread.sleep(2000);
 							  log.info("Yes Button   Clicked ");	  
-						  
-						  
-						  
+						 
 				   Thread.sleep(2000);
-		   
+		   driver.findElement(By.xpath(objectrepo.getProperty("LocationDeleteSuccessMessage")));	 
+ 
   log.info("Location Was Deleted Succesfully ");
 		   
 			    log.info("End TEST-------------------------- DeleteEmployerLocation------------------------");     

@@ -44,7 +44,7 @@ import org.apache.log4j.Logger;
 
 	// Need to create these methods, so that they can be called  
 
- public static void info(String message) {
+ public static void info   (String message) {
 
 		log.info(message);
 

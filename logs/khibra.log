@@ -1129,3 +1129,746 @@ INFO  - 2021-04-14 07:32:33.716; utils.log; Language change success message disp
 INFO  - 2021-04-14 07:32:35.737; utils.log; Language Changed Back to English 
 INFO  - 2021-04-14 07:32:35.737; utils.log; End TEST-------------------------- StudentChangeLanguage------------------------
 INFO  - 2021-04-14 07:32:35.737; utils.log; END=PASSED
+INFO  - 2021-04-15 19:46:55.180; utils.log; START=ChangeStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-04-15 19:47:35.013; utils.log; START=ChangeStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-04-15 19:50:23.743; utils.log; START=ChangeStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-04-21 09:38:17.910; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 09:38:33.429; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 09:38:37.786; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 09:38:41.959; utils.log; University Login Successful
+INFO  - 2021-04-21 09:38:44.072; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 09:38:45.800; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 09:39:27.887; utils.log; END=FAILED
+INFO  - 2021-04-21 09:48:31.552; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 09:49:31.317; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 09:49:35.699; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 09:51:26.104; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 09:51:38.238; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 09:51:42.603; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 09:51:46.628; utils.log; University Login Successful
+INFO  - 2021-04-21 09:51:48.780; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 09:51:50.270; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 09:51:52.338; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 09:51:52.431; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 09:52:20.724; utils.log; END=FAILED
+INFO  - 2021-04-21 09:55:07.939; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 09:55:19.895; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 09:55:24.247; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 09:55:28.271; utils.log; University Login Successful
+INFO  - 2021-04-21 09:55:30.381; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 09:55:32.733; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 09:55:34.803; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 09:55:34.893; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 09:55:35.399; utils.log; END=FAILED
+INFO  - 2021-04-21 09:57:24.406; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 09:57:35.571; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 09:57:39.911; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 09:57:43.937; utils.log; University Login Successful
+INFO  - 2021-04-21 09:57:46.123; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 09:57:48.400; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 09:57:50.469; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 09:57:50.531; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 09:57:50.817; utils.log; END=FAILED
+INFO  - 2021-04-21 09:58:29.310; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 09:58:48.674; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 09:58:53.028; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 09:58:57.049; utils.log; University Login Successful
+INFO  - 2021-04-21 09:58:59.183; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 09:59:32.281; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 09:59:34.343; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 09:59:34.399; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 09:59:34.489; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 09:59:34.562; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 09:59:35.030; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 09:59:37.037; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 09:59:37.037; utils.log; END=PASSED
+INFO  - 2021-04-21 10:00:45.704; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:01:05.488; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:01:34.225; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:01:38.585; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:01:42.605; utils.log; University Login Successful
+INFO  - 2021-04-21 10:01:44.725; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:01:47.158; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:01:49.234; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:01:49.298; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:01:49.388; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:01:59.467; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:02:00.340; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:02:02.346; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:02:02.347; utils.log; END=PASSED
+INFO  - 2021-04-21 10:02:42.957; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:02:55.212; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:02:59.558; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:03:03.580; utils.log; University Login Successful
+INFO  - 2021-04-21 10:03:05.705; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:03:07.251; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:03:09.322; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:03:09.389; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:03:09.473; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:03:19.553; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:03:20.071; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:03:22.077; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:03:22.077; utils.log; END=PASSED
+INFO  - 2021-04-21 10:03:47.240; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:04:44.526; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:04:48.888; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:05:06.604; utils.log; University Login Successful
+INFO  - 2021-04-21 10:05:08.727; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:05:20.288; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:05:22.356; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:05:22.415; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:05:22.512; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:05:32.591; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:05:33.343; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:05:35.349; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:05:35.350; utils.log; END=PASSED
+INFO  - 2021-04-21 10:06:16.036; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:06:33.111; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:06:37.558; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:06:41.586; utils.log; University Login Successful
+INFO  - 2021-04-21 10:06:43.710; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:06:45.620; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:06:47.693; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:06:47.762; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:06:47.845; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:07:17.928; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:07:18.518; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:07:20.522; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:07:20.523; utils.log; END=PASSED
+INFO  - 2021-04-21 10:08:05.166; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:08:18.351; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:08:22.699; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:08:26.728; utils.log; University Login Successful
+INFO  - 2021-04-21 10:08:28.854; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:08:30.478; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:08:32.545; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:08:32.612; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:08:32.698; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:09:02.780; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:09:03.697; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:09:05.701; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:09:05.701; utils.log; END=PASSED
+INFO  - 2021-04-21 10:10:31.602; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:10:43.924; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:10:48.334; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:10:52.361; utils.log; University Login Successful
+INFO  - 2021-04-21 10:10:54.483; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:10:57.525; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:10:59.594; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:10:59.666; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:10:59.734; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:11:29.798; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:11:30.598; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:11:32.602; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:11:32.602; utils.log; END=PASSED
+INFO  - 2021-04-21 10:12:09.103; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:12:21.157; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:12:25.514; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:12:29.533; utils.log; University Login Successful
+INFO  - 2021-04-21 10:12:31.655; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:12:35.904; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:12:37.972; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:12:38.032; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:12:38.097; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:13:09.453; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:13:09.514; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:13:09.515; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:13:09.516; utils.log; END=PASSED
+INFO  - 2021-04-21 10:15:14.821; utils.log; START=ChangeUniversityLogo--------------------------------------------------------------
+INFO  - 2021-04-21 10:15:24.609; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:15:29.037; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:15:33.061; utils.log; University Login Successful
+INFO  - 2021-04-21 10:15:35.190; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:15:36.934; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 10:15:38.999; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:15:39.066; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 10:15:39.126; utils.log; Image Selected Successfully 
+INFO  - 2021-04-21 10:15:42.766; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 10:15:42.821; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 10:15:44.063; utils.log; Profile Saved successfully 
+INFO  - 2021-04-21 10:15:44.063; utils.log; End TEST-------------------------- ChangeUniversityLogo------------------------
+INFO  - 2021-04-21 10:15:44.064; utils.log; END=PASSED
+INFO  - 2021-04-21 10:17:15.343; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:17:30.465; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:17:34.825; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:17:39.192; utils.log; University Login Successful
+INFO  - 2021-04-21 10:17:41.318; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:17:47.961; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:18:30.044; utils.log; END=FAILED
+INFO  - 2021-04-21 10:18:43.448; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:19:00.625; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:19:04.986; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:19:09.016; utils.log; University Login Successful
+INFO  - 2021-04-21 10:19:11.196; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:19:14.316; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:19:56.463; utils.log; END=FAILED
+INFO  - 2021-04-21 10:22:11.785; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:23:01.646; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:23:05.989; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:23:11.633; utils.log; University Login Successful
+INFO  - 2021-04-21 10:23:13.747; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:23:16.168; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:23:18.224; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:23:18.291; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 10:23:20.342; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 10:23:20.378; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 10:24:00.460; utils.log; END=FAILED
+INFO  - 2021-04-21 10:25:43.233; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:26:00.800; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:26:05.157; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:26:13.304; utils.log; University Login Successful
+INFO  - 2021-04-21 10:26:15.433; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:26:21.052; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:26:23.121; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:26:23.183; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 10:26:25.237; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 10:26:25.273; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 10:26:27.511; utils.log; Save Button Clicked 
+INFO  - 2021-04-21 10:26:29.538; utils.log; End TEST-------------------------- UpdateUniAboutUsProfile------------------------
+INFO  - 2021-04-21 10:26:29.538; utils.log; END=PASSED
+INFO  - 2021-04-21 10:30:50.661; utils.log; START=UpdateUniSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:31:01.486; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:31:05.850; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:31:09.872; utils.log; University Login Successful
+INFO  - 2021-04-21 10:31:11.993; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:31:13.482; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:31:55.547; utils.log; END=FAILED
+INFO  - 2021-04-21 10:32:31.449; utils.log; START=UpdateUniSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:39:19.328; utils.log; START=UpdateUniSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:39:34.643; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:39:39.027; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:39:43.062; utils.log; University Login Successful
+INFO  - 2021-04-21 10:39:45.204; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:39:47.283; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:39:49.347; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:39:49.415; utils.log; Social Media Edit Button Clicked 
+INFO  - 2021-04-21 10:39:51.466; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 10:39:53.512; utils.log; Social Media Edit Button Clicked 
+INFO  - 2021-04-21 10:40:33.590; utils.log; END=FAILED
+INFO  - 2021-04-21 10:43:51.241; utils.log; START=UpdateUniSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:44:14.367; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:44:18.745; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:44:22.773; utils.log; University Login Successful
+INFO  - 2021-04-21 10:44:24.914; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:44:31.304; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:44:33.372; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:44:33.427; utils.log; Social Media Edit Button Clicked 
+INFO  - 2021-04-21 10:44:35.476; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 10:44:37.519; utils.log; Social Media Edit Button Clicked 
+INFO  - 2021-04-21 10:44:42.999; utils.log; END=FAILED
+INFO  - 2021-04-21 10:49:29.650; utils.log; START=UpdateUniSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-21 10:49:48.691; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 10:49:53.049; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 10:49:58.453; utils.log; University Login Successful
+INFO  - 2021-04-21 10:50:00.585; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 10:50:05.344; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 10:50:07.403; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 10:50:07.473; utils.log; Social Media Edit Button Clicked 
+INFO  - 2021-04-21 10:50:09.530; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 10:50:11.571; utils.log; Social Media Edit Button Clicked 
+INFO  - 2021-04-21 10:50:13.936; utils.log; 1 
+INFO  - 2021-04-21 10:50:18.429; utils.log; 2 
+INFO  - 2021-04-21 10:50:18.429; utils.log; All social Media accounts Updated 
+INFO  - 2021-04-21 10:50:20.498; utils.log; SaveButton Button Clicked 
+INFO  - 2021-04-21 10:50:22.515; utils.log; Links Updated Success Message Displayed  
+INFO  - 2021-04-21 10:50:22.605; utils.log; Website, Facebook, Instagram, LinkedIn, Twitter and Youtube Updated successfully 
+INFO  - 2021-04-21 10:50:22.606; utils.log; End TEST--------------------------UpdateUniSocialMediaProfile------------------------
+INFO  - 2021-04-21 10:50:22.606; utils.log; END=PASSED
+INFO  - 2021-04-21 11:06:45.396; utils.log; START=ChangeUniversityName--------------------------------------------------------------
+INFO  - 2021-04-21 11:07:03.749; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:07:08.097; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:07:12.135; utils.log; University Login Successful
+INFO  - 2021-04-21 11:07:14.263; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 11:07:18.102; utils.log; University Profile Menu   Clicked 
+INFO  - 2021-04-21 11:07:20.170; utils.log; Overview Tab Clicked 
+INFO  - 2021-04-21 11:07:20.234; utils.log; Edit  Profile Icon   Clicked 
+INFO  - 2021-04-21 11:07:20.411; utils.log; University name Entered 
+INFO  - 2021-04-21 11:07:22.481; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 11:07:24.502; utils.log; Profile Saved successfully 
+INFO  - 2021-04-21 11:07:24.520; utils.log; End TEST-------------------------- ChangeUniversityName------------------------
+INFO  - 2021-04-21 11:07:24.520; utils.log; END=PASSED
+INFO  - 2021-04-21 11:16:47.634; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 11:17:02.514; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:17:06.869; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:17:10.893; utils.log; University Login Successful
+INFO  - 2021-04-21 11:17:13.048; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 11:17:15.679; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 11:17:17.735; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 11:17:17.763; utils.log; Enrolled Student Count and Main Campus Displayed
+INFO  - 2021-04-21 11:17:17.825; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 11:17:19.875; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 11:17:19.914; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 11:17:22.212; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 11:17:22.507; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 11:17:22.799; utils.log; Save Button Clicked 
+INFO  - 2021-04-21 11:17:24.827; utils.log; End TEST-------------------------- UpdateUniAboutUsProfile------------------------
+INFO  - 2021-04-21 11:17:24.829; utils.log; END=PASSED
+INFO  - 2021-04-21 11:18:22.417; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 11:18:39.688; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:18:44.039; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:18:52.586; utils.log; University Login Successful
+INFO  - 2021-04-21 11:18:54.707; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 11:19:04.907; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 11:19:06.958; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 11:19:06.981; utils.log; Enrolled Student Count and Main Campus Displayed
+INFO  - 2021-04-21 11:19:07.041; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 11:19:09.095; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 11:19:09.136; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 11:19:11.426; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 11:19:13.469; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 11:19:35.497; utils.log; END=FAILED
+INFO  - 2021-04-21 11:19:38.903; utils.log; START=UpdateUniAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 11:19:53.699; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:19:58.107; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:20:02.129; utils.log; University Login Successful
+INFO  - 2021-04-21 11:20:04.282; utils.log; Menu Dropdown Available
+INFO  - 2021-04-21 11:20:06.610; utils.log; UniProfileMenu Button Clicked 
+INFO  - 2021-04-21 11:20:08.674; utils.log; Overview Tab   Clicked 
+INFO  - 2021-04-21 11:20:08.703; utils.log; Enrolled Student Count and Main Campus Displayed
+INFO  - 2021-04-21 11:20:08.758; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 11:20:10.808; utils.log; Cancel Button Clicked 
+INFO  - 2021-04-21 11:20:10.848; utils.log; AboutUs Edit Button Clicked 
+INFO  - 2021-04-21 11:20:13.129; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 11:20:15.430; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 11:20:37.721; utils.log; Save Button Clicked 
+INFO  - 2021-04-21 11:20:39.752; utils.log; End TEST-------------------------- UpdateUniAboutUsProfile------------------------
+INFO  - 2021-04-21 11:20:39.753; utils.log; END=PASSED
+INFO  - 2021-04-21 11:26:13.768; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:26:29.637; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:26:33.970; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:26:37.332; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:26:40.525; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:26:44.582; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:27:04.357; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:27:44.405; utils.log; END=FAILED
+INFO  - 2021-04-21 11:32:46.693; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:33:00.549; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:33:04.891; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:33:07.310; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:33:10.345; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:33:14.426; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:33:16.520; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:33:16.706; utils.log; END=FAILED
+INFO  - 2021-04-21 11:33:59.944; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:34:14.032; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:34:18.383; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:34:20.410; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:34:23.487; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:34:27.567; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:34:29.646; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:34:32.029; utils.log; END=FAILED
+INFO  - 2021-04-21 11:35:30.752; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:35:44.793; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:35:49.145; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:35:53.816; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:35:57.223; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:36:01.301; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:36:03.384; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:36:05.852; utils.log; END=FAILED
+INFO  - 2021-04-21 11:38:13.689; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:38:33.374; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:38:37.718; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:38:39.736; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:38:43.298; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:38:47.375; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:38:49.468; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:38:52.884; utils.log; END=FAILED
+INFO  - 2021-04-21 11:40:19.969; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:41:01.150; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:41:05.479; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:41:07.567; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:41:12.283; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:41:16.364; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:41:18.451; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:41:20.906; utils.log; END=FAILED
+INFO  - 2021-04-21 11:43:03.218; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:43:18.431; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:43:22.775; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:43:24.981; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:43:28.192; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:43:32.271; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:43:34.354; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:43:36.737; utils.log; END=FAILED
+INFO  - 2021-04-21 11:44:31.788; utils.log; START=EMPAddEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 11:45:57.892; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:46:02.284; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:46:04.922; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:46:08.323; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 11:46:12.409; utils.log; Location Menu Selected
+INFO  - 2021-04-21 11:46:14.495; utils.log; Add New location  Clicked
+INFO  - 2021-04-21 11:46:16.864; utils.log; END=FAILED
+INFO  - 2021-04-21 11:58:02.260; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-21 11:59:39.153; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 11:59:43.498; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 11:59:46.220; utils.log; Employer Login Successful
+INFO  - 2021-04-21 11:59:49.539; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 11:59:51.626; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 11:59:51.695; utils.log; Image Selected 
+INFO  - 2021-04-21 12:00:03.698; utils.log; End TEST--------------------------ChangeEmployerLogo------------------------
+INFO  - 2021-04-21 12:00:03.699; utils.log; END=PASSED
+INFO  - 2021-04-21 12:00:25.999; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-21 12:00:42.496; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:00:46.851; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:00:50.292; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:00:53.463; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 12:00:55.556; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 12:00:55.626; utils.log; Image Selected 
+INFO  - 2021-04-21 12:01:07.631; utils.log; End TEST--------------------------ChangeEmployerLogo------------------------
+INFO  - 2021-04-21 12:01:07.631; utils.log; END=PASSED
+INFO  - 2021-04-21 12:02:05.117; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-21 12:02:23.076; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:02:27.414; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:02:29.780; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:02:32.157; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 12:02:34.245; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 12:02:34.314; utils.log; Image Selected 
+INFO  - 2021-04-21 12:02:56.318; utils.log; End TEST--------------------------ChangeEmployerLogo------------------------
+INFO  - 2021-04-21 12:02:56.319; utils.log; END=PASSED
+INFO  - 2021-04-21 12:05:21.909; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-21 12:06:56.251; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:07:00.614; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:07:04.638; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:07:08.670; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 12:07:10.756; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 12:07:10.890; utils.log; Image Selected 
+INFO  - 2021-04-21 12:07:32.895; utils.log; End TEST--------------------------ChangeEmployerLogo------------------------
+INFO  - 2021-04-21 12:07:32.897; utils.log; END=PASSED
+INFO  - 2021-04-21 12:07:58.404; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-21 12:08:12.938; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:08:17.280; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:09:17.848; utils.log; START=ChangeEmployerLogo--------------------------------------------------------------
+INFO  - 2021-04-21 12:09:46.498; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:09:50.852; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:09:53.455; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:09:57.238; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 12:09:59.331; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 12:09:59.406; utils.log; Image Selected 
+INFO  - 2021-04-21 12:10:01.424; utils.log; Logo Updated successfully 
+INFO  - 2021-04-21 12:10:03.484; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 12:10:04.525; utils.log; Profile Saved successfully 
+INFO  - 2021-04-21 12:10:04.525; utils.log; End TEST--------------------------ChangeEmployerLogo------------------------
+INFO  - 2021-04-21 12:10:04.525; utils.log; END=PASSED
+INFO  - 2021-04-21 12:10:58.607; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:11:14.864; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:11:19.238; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:11:23.016; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:11:26.094; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 12:11:30.173; utils.log; Location Menu Selected
+INFO  - 2021-04-21 12:11:44.702; utils.log; END=FAILED
+INFO  - 2021-04-21 12:16:25.195; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:16:40.712; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:16:45.047; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:16:47.704; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:16:50.741; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 12:16:54.819; utils.log; Location Menu Selected
+INFO  - 2021-04-21 12:16:56.876; utils.log; Delete Icon Clicked 
+INFO  - 2021-04-21 12:16:56.892; utils.log; END=FAILED
+INFO  - 2021-04-21 12:17:40.842; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:18:50.429; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:21:46.985; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:22:41.210; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:22:45.556; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:22:48.984; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:23:04.704; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 12:23:08.776; utils.log; Location Menu Selected
+INFO  - 2021-04-21 12:23:25.520; utils.log; Delete Icon Clicked 
+INFO  - 2021-04-21 12:23:25.547; utils.log; Confirm Delete Titles Validated 
+INFO  - 2021-04-21 12:23:27.596; utils.log; No Button   Clicked 
+INFO  - 2021-04-21 12:23:29.638; utils.log; Delete Icon Clicked 
+INFO  - 2021-04-21 12:24:09.679; utils.log; END=FAILED
+INFO  - 2021-04-21 12:26:02.356; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:26:20.293; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:26:24.657; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:26:28.106; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:26:33.572; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-04-21 12:26:37.662; utils.log; Location Menu Selected
+INFO  - 2021-04-21 12:26:39.718; utils.log; Delete Icon Clicked 
+INFO  - 2021-04-21 12:26:39.744; utils.log; Confirm Delete Titles Validated 
+INFO  - 2021-04-21 12:26:41.798; utils.log; No Button   Clicked 
+INFO  - 2021-04-21 12:26:43.842; utils.log; Delete Icon Clicked 
+INFO  - 2021-04-21 12:26:45.897; utils.log; Yes Button   Clicked 
+INFO  - 2021-04-21 12:26:47.916; utils.log; Location Was Deleted Succesfully 
+INFO  - 2021-04-21 12:26:47.917; utils.log; End TEST-------------------------- DeleteEmployerLocation------------------------
+INFO  - 2021-04-21 12:26:47.917; utils.log; END=PASSED
+INFO  - 2021-04-21 12:31:51.965; utils.log; START=EditEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:32:12.015; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:32:16.347; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:32:19.183; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:32:28.153; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 12:32:32.225; utils.log; Location Menu clicked
+INFO  - 2021-04-21 12:32:34.316; utils.log;   location  to be edited Clicked
+INFO  - 2021-04-21 12:33:14.563; utils.log; END=FAILED
+INFO  - 2021-04-21 12:34:21.300; utils.log; START=EditEmployerLocation--------------------------------------------------------------
+INFO  - 2021-04-21 12:34:51.083; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 12:34:55.463; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 12:34:57.851; utils.log; Employer Login Successful
+INFO  - 2021-04-21 12:35:04.810; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 12:35:08.897; utils.log; Location Menu clicked
+INFO  - 2021-04-21 12:35:10.984; utils.log;   location  to be edited Clicked
+INFO  - 2021-04-21 12:35:11.211; utils.log; Update Button Clicked
+INFO  - 2021-04-21 12:35:13.274; utils.log; Location Update Success Message displayed 
+INFO  - 2021-04-21 12:35:13.293; utils.log; Location Was updated Succesfully 
+INFO  - 2021-04-21 12:35:13.294; utils.log; End TEST-------------------------- EditEmployerLocation------------------------
+INFO  - 2021-04-21 12:35:13.294; utils.log; END=PASSED
+INFO  - 2021-04-21 13:06:31.793; utils.log; START=EditEmployerPhotos--------------------------------------------------------------
+INFO  - 2021-04-21 13:06:48.142; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:06:52.573; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:06:55.116; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:06:58.409; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:07:00.479; utils.log; Edit Photo  Clicked
+INFO  - 2021-04-21 13:07:42.529; utils.log; END=FAILED
+INFO  - 2021-04-21 13:15:55.509; utils.log; START=EditEmployerPhotos--------------------------------------------------------------
+INFO  - 2021-04-21 13:16:26.643; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:16:30.968; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:16:33.383; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:16:35.870; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:16:37.939; utils.log; Edit Photo  Clicked
+INFO  - 2021-04-21 13:16:42.334; utils.log; END=FAILED
+INFO  - 2021-04-21 13:18:24.171; utils.log; START=EditEmployerPhotos--------------------------------------------------------------
+INFO  - 2021-04-21 13:18:36.949; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:18:41.281; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:18:50.165; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:18:54.687; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:18:56.756; utils.log; Media Tab  Clicked
+INFO  - 2021-04-21 13:18:58.819; utils.log; Edit Photo  Clicked
+INFO  - 2021-04-21 13:19:00.998; utils.log; Save Button  Clicked
+INFO  - 2021-04-21 13:19:03.001; utils.log; Photo Updated
+INFO  - 2021-04-21 13:19:03.001; utils.log; End TEST-------------------------- EditEmployerPhotos------------------------
+INFO  - 2021-04-21 13:19:03.002; utils.log; END=PASSED
+INFO  - 2021-04-21 13:28:55.101; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:29:09.439; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:29:13.780; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:29:16.092; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:29:20.635; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:29:24.697; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:29:24.758; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:30:07.055; utils.log; END=FAILED
+INFO  - 2021-04-21 13:30:24.394; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:30:40.850; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:30:45.181; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:30:47.231; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:30:51.714; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:30:55.775; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:30:55.835; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:31:38.107; utils.log; END=FAILED
+INFO  - 2021-04-21 13:33:29.581; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:33:45.017; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:33:49.353; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:33:51.368; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:33:56.617; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:34:00.674; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:34:00.730; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:34:03.331; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 13:34:05.632; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 13:34:09.945; utils.log; About us updated Succesfully 
+INFO  - 2021-04-21 13:34:09.945; utils.log; End TEST-------------------------- EmpUpdateAboutUsProfile------------------------
+INFO  - 2021-04-21 13:34:09.945; utils.log; END=PASSED
+INFO  - 2021-04-21 13:37:19.922; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:37:39.180; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:37:43.529; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:37:45.721; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:37:50.227; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:37:54.285; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:37:54.350; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:37:56.942; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 13:37:58.983; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 13:38:03.276; utils.log; Save Button Clicked
+INFO  - 2021-04-21 13:38:23.197; utils.log; Profile updated successfully message displayed
+INFO  - 2021-04-21 13:38:23.221; utils.log; About us updated Succesfully 
+INFO  - 2021-04-21 13:38:23.221; utils.log; End TEST-------------------------- EmpUpdateAboutUsProfile------------------------
+INFO  - 2021-04-21 13:38:23.221; utils.log; END=PASSED
+INFO  - 2021-04-21 13:38:55.085; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:39:12.017; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:39:16.355; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:39:18.373; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:39:21.105; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:39:25.161; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:39:25.216; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:39:27.803; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 13:39:29.841; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 13:39:34.133; utils.log; Save Button Clicked
+INFO  - 2021-04-21 13:40:10.658; utils.log; END=FAILED
+INFO  - 2021-04-21 13:40:20.938; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:40:41.105; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:40:45.455; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:40:49.249; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:40:52.226; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:40:56.279; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:40:56.336; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:40:58.865; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 13:41:00.908; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 13:41:05.208; utils.log; Save Button Clicked
+INFO  - 2021-04-21 13:41:48.271; utils.log; END=FAILED
+INFO  - 2021-04-21 13:42:57.543; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:43:09.307; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:43:35.798; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:43:40.175; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:43:43.888; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:43:46.429; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:43:50.491; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:43:50.547; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:43:53.107; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 13:43:55.143; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 13:43:57.204; utils.log; Save Button Clicked
+INFO  - 2021-04-21 13:44:00.400; utils.log; Profile updated successfully message displayed
+INFO  - 2021-04-21 13:44:00.400; utils.log; About us updated Succesfully 
+INFO  - 2021-04-21 13:44:00.401; utils.log; End TEST-------------------------- EmpUpdateAboutUsProfile------------------------
+INFO  - 2021-04-21 13:44:00.401; utils.log; END=PASSED
+INFO  - 2021-04-21 13:44:55.018; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-21 13:46:15.049; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:46:19.400; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:46:22.322; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:46:24.663; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:46:28.724; utils.log; Overview Menu clicked
+INFO  - 2021-04-21 13:46:28.786; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-21 13:46:31.457; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-21 13:46:33.494; utils.log; Student Size Option Selected
+INFO  - 2021-04-21 13:46:35.783; utils.log; Save Button Clicked
+INFO  - 2021-04-21 13:46:41.263; utils.log; Profile updated successfully message displayed
+INFO  - 2021-04-21 13:46:41.288; utils.log; About us updated Succesfully 
+INFO  - 2021-04-21 13:46:41.289; utils.log; End TEST-------------------------- EmpUpdateAboutUsProfile------------------------
+INFO  - 2021-04-21 13:46:41.289; utils.log; END=PASSED
+INFO  - 2021-04-21 13:58:21.793; utils.log; START=ChangeEmployerName--------------------------------------------------------------
+INFO  - 2021-04-21 13:58:39.144; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 13:58:43.508; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 13:58:45.530; utils.log; Employer Login Successful
+INFO  - 2021-04-21 13:58:49.844; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 13:58:51.936; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 13:58:52.077; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 13:58:52.146; utils.log; Comoany Industry  Clicked
+INFO  - 2021-04-21 13:59:32.211; utils.log; END=FAILED
+INFO  - 2021-04-21 14:01:48.373; utils.log; START=ChangeEmployerName--------------------------------------------------------------
+INFO  - 2021-04-21 14:02:24.801; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-21 14:02:29.171; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-21 14:02:33.872; utils.log; Employer Login Successful
+INFO  - 2021-04-21 14:02:36.930; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-21 14:02:39.032; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 14:02:39.202; utils.log; Edit Employer Icon Clicked
+INFO  - 2021-04-21 14:02:39.276; utils.log; Company Industry  Clicked
+INFO  - 2021-04-21 14:02:41.332; utils.log; Company Industry Option Selected
+INFO  - 2021-04-21 14:02:43.419; utils.log; Save Button  Clicked 
+INFO  - 2021-04-21 14:02:43.942; utils.log; Employer Name and Industry Saved successfully 
+INFO  - 2021-04-21 14:02:43.943; utils.log; End TEST--------------------------ChangeEmployerName------------------------
+INFO  - 2021-04-21 14:02:43.943; utils.log; END=PASSED
+INFO  - 2021-04-22 10:21:37.727; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:24:53.041; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:26:26.858; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:27:07.197; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:29:06.973; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:31:55.363; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:33:48.374; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:34:25.693; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:34:46.549; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:34:50.971; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:35:04.550; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:35:11.509; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:35:15.588; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:35:15.659; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-22 10:35:18.661; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-22 10:35:20.716; utils.log; Student Size Option Selected
+INFO  - 2021-04-22 10:35:22.804; utils.log; Save Button Clicked
+INFO  - 2021-04-22 10:36:02.870; utils.log; END=FAILED
+INFO  - 2021-04-22 10:37:04.864; utils.log; START=EmpUpdateAboutUsProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:37:21.835; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:37:26.173; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:37:28.377; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:37:34.742; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:37:38.944; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:37:39.016; utils.log; Edit Employer Profile Icon Clicked
+INFO  - 2021-04-22 10:37:41.563; utils.log; Student Size Dropdown Clicked 
+INFO  - 2021-04-22 10:37:43.604; utils.log; Student Size Option Selected
+INFO  - 2021-04-22 10:37:45.897; utils.log; Save Button Clicked
+INFO  - 2021-04-22 10:37:59.264; utils.log; Profile updated successfully message displayed
+INFO  - 2021-04-22 10:37:59.288; utils.log; About us updated Succesfully 
+INFO  - 2021-04-22 10:37:59.289; utils.log; End TEST-------------------------- EmpUpdateAboutUsProfile------------------------
+INFO  - 2021-04-22 10:37:59.289; utils.log; END=PASSED
+INFO  - 2021-04-22 10:41:42.375; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:41:57.057; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:42:01.433; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:42:03.861; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:42:06.977; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:42:11.038; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:42:11.101; utils.log; Edit  Social Media Icon Clicked
+INFO  - 2021-04-22 10:42:41.586; utils.log; END=FAILED
+INFO  - 2021-04-22 10:43:54.134; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:45:04.748; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:45:09.190; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:47:17.203; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:47:46.134; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:47:50.487; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:47:52.709; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:47:58.652; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:48:02.723; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:48:02.793; utils.log; Edit  Social Media Icon Clicked
+INFO  - 2021-04-22 10:48:09.544; utils.log; All social Media accounts Updated 
+INFO  - 2021-04-22 10:48:11.604; utils.log; SaveButton Button Clicked 
+INFO  - 2021-04-22 10:48:11.805; utils.log; Website, Facebook, Instagram, LinkedIn, Twitter and Youtube Updated successfully 
+INFO  - 2021-04-22 10:48:11.806; utils.log; End TEST--------------------------EmpUpdateSocialMediaProfile------------------------
+INFO  - 2021-04-22 10:48:11.806; utils.log; END=PASSED
+INFO  - 2021-04-22 10:49:20.793; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:49:42.162; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:49:46.597; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:49:49.413; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:49:52.704; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:49:56.763; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:49:56.822; utils.log; Edit  Social Media Icon Clicked
+INFO  - 2021-04-22 10:50:03.569; utils.log; All social Media accounts Updated 
+INFO  - 2021-04-22 10:50:05.623; utils.log; SaveButton Button Clicked 
+INFO  - 2021-04-22 10:50:17.273; utils.log; END=FAILED
+INFO  - 2021-04-22 10:50:53.327; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:51:07.799; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:51:12.134; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:51:14.151; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:51:16.574; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:51:20.634; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:51:20.695; utils.log; Edit  Social Media Icon Clicked
+INFO  - 2021-04-22 10:51:27.453; utils.log; All social Media accounts Updated 
+INFO  - 2021-04-22 10:51:29.509; utils.log; SaveButton Button Clicked 
+INFO  - 2021-04-22 10:52:00.608; utils.log; END=FAILED
+INFO  - 2021-04-22 10:52:05.818; utils.log; START=EmpUpdateSocialMediaProfile--------------------------------------------------------------
+INFO  - 2021-04-22 10:52:21.839; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:52:26.179; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:52:28.339; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:52:32.288; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:52:36.342; utils.log; Overview Menu clicked
+INFO  - 2021-04-22 10:52:36.404; utils.log; Edit  Social Media Icon Clicked
+INFO  - 2021-04-22 10:52:43.144; utils.log; All social Media accounts Updated 
+INFO  - 2021-04-22 10:52:45.194; utils.log; SaveButton Button Clicked 
+INFO  - 2021-04-22 10:52:47.211; utils.log; Links updated successfully message displayed
+INFO  - 2021-04-22 10:52:47.313; utils.log; Website, Facebook, Instagram, LinkedIn, Twitter and Youtube Updated successfully 
+INFO  - 2021-04-22 10:52:47.314; utils.log; End TEST--------------------------EmpUpdateSocialMediaProfile------------------------
+INFO  - 2021-04-22 10:52:47.314; utils.log; END=PASSED
+INFO  - 2021-04-22 10:59:15.784; utils.log; START=EmpUploadEmployerPhotos--------------------------------------------------------------
+INFO  - 2021-04-22 10:59:36.989; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 10:59:41.410; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 10:59:43.456; utils.log; Employer Login Successful
+INFO  - 2021-04-22 10:59:48.902; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 10:59:52.979; utils.log; Media Tab  clicked
+INFO  - 2021-04-22 10:59:53.050; utils.log; Upload New media Button Clicked
+INFO  - 2021-04-22 11:00:35.096; utils.log; END=FAILED
+INFO  - 2021-04-22 11:10:40.210; utils.log; START=EmpUploadEmployerPhotos--------------------------------------------------------------
+INFO  - 2021-04-22 11:11:03.226; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 11:11:07.562; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 11:11:09.583; utils.log; Employer Login Successful
+INFO  - 2021-04-22 11:11:17.392; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 11:11:21.479; utils.log; Media Tab  clicked
+INFO  - 2021-04-22 11:11:21.601; utils.log; Upload New media Button Clicked
+INFO  - 2021-04-22 11:11:23.963; utils.log; Photo Uploaded Succesfully 
+INFO  - 2021-04-22 11:11:23.963; utils.log; End TEST-------------------------- EmpUploadEmployerPhotos------------------------
+INFO  - 2021-04-22 11:11:23.964; utils.log; END=PASSED
+INFO  - 2021-04-22 11:17:31.539; utils.log; START=ViewEmployerJobs--------------------------------------------------------------
+INFO  - 2021-04-22 11:18:13.877; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 11:18:18.426; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 11:18:21.797; utils.log; Employer Login Successful
+INFO  - 2021-04-22 11:18:37.465; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 11:18:41.593; utils.log; Jobs Tab  clicked
+INFO  - 2021-04-22 11:19:21.645; utils.log; END=FAILED
+INFO  - 2021-04-22 11:20:16.929; utils.log; START=ViewEmployerJobs--------------------------------------------------------------
+INFO  - 2021-04-22 11:20:35.233; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-04-22 11:20:39.566; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-04-22 11:20:43.515; utils.log; Employer Login Successful
+INFO  - 2021-04-22 11:20:47.942; utils.log; Employer Profile MenuClicked
+INFO  - 2021-04-22 11:20:52.005; utils.log; Jobs Tab  clicked
+INFO  - 2021-04-22 11:20:52.019; utils.log; Employer Jobs Displayed successflly  
+INFO  - 2021-04-22 11:20:52.019; utils.log; End TEST-------------------------- ViewEmployerJobs------------------------
+INFO  - 2021-04-22 11:20:52.019; utils.log; END=PASSED

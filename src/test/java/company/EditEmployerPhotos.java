@@ -103,15 +103,25 @@ public class EditEmployerPhotos extends EmployerUtility{
    driver.findElement(By.xpath(objectrepo.getProperty("EmployerProfileMenu"))).click();	 
 		  log.info("Employer Profile MenuClicked");
 		  Thread.sleep(2000);
+		   
+		  
+		  driver.findElement(By.xpath(objectrepo.getProperty("MediaTab"))).click();	 
+		  log.info("Media Tab  Clicked");
+		  Thread.sleep(2000);
 		  
 		  driver.findElement(By.xpath(objectrepo.getProperty("EditEmpPhotoIcon"))).click();	 
 		  log.info("Edit Photo  Clicked");
 		  Thread.sleep(2000);
 		  
-		  driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	 
+		  driver.findElement(By.xpath(objectrepo.getProperty("LocationTitle"))).click();	 
+
+		  driver.findElement(By.xpath(objectrepo.getProperty("PhotolocationTextbox"))).click();	 
+		  
+		  driver.findElement(By.xpath(objectrepo.getProperty("UpdateButton"))).click();	 
 		  log.info("Save Button  Clicked");
 		  Thread.sleep(2000);
 		  
+
 		  log.info("Photo Updated");
 		   
 			    log.info("End TEST-------------------------- EditEmployerPhotos------------------------");     

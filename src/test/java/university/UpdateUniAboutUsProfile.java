@@ -116,9 +116,18 @@ public class UpdateUniAboutUsProfile extends UniversityUtility{
 			   driver.findElement(By.xpath(objectrepo.getProperty("UniProfileMenu"))).click();	 
 			   log.info("UniProfileMenu Button Clicked ");
 			    Thread.sleep(2000);  
-				   driver.findElement(By.xpath(objectrepo.getProperty("UniversityLogo")));	 
+ 
+    driver.findElement(By.xpath(objectrepo.getProperty("UniversityOverview"))).click();	 
+    log.info("Overview Tab   Clicked ");
+    
+	   driver.findElement(By.xpath(objectrepo.getProperty("EnrolledStudentText")));	 
 
-				   driver.findElement(By.xpath(objectrepo.getProperty("EditAboutUs"))).click();	 
+	   driver.findElement(By.xpath(objectrepo.getProperty("MainCampusText")));	 
+	   log.info("Enrolled Student Count and Main Campus Displayed");
+    
+    
+    
+	 driver.findElement(By.xpath(objectrepo.getProperty("EditAboutUs"))).click();	 
 				   log.info("AboutUs Edit Button Clicked ");
 				   
 	 driver.findElement(By.xpath(objectrepo.getProperty("CancelButton"))).click();	
@@ -130,6 +139,18 @@ public class UpdateUniAboutUsProfile extends UniversityUtility{
 
 	   driver.findElement(By.xpath(objectrepo.getProperty("AboutUsTextbox"))).sendKeys(Aboutus);	
 		 Thread.sleep(2000); 
+		 
+		 
+		  driver.findElement(By.xpath(objectrepo.getProperty("StudentSizeDropdown"))).click();	 
+		   log.info("Student Size Dropdown Clicked ");
+			 Thread.sleep(2000); 
+			 
+		   driver.findElement(By.xpath(objectrepo.getProperty("StudentSizeOption"))).click();	 
+		   log.info("Student Size Option Selected");
+			 Thread.sleep(2000); 
+			 
+		 
+		 
 		 
 		  driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	 
 		   log.info("Save Button Clicked ");

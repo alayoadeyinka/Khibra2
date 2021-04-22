@@ -109,34 +109,53 @@ public class EmpUpdateAboutUsProfile extends EmployerUtility{
 				  Cell cell1 = aboutus.getCell(1);
 				  String Aboutus  = cell1.getStringCellValue();
 		  
-	     
+ 
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmployerProfileMenu"))).click();	 
 			  log.info("Employer Profile MenuClicked");
 			  Thread.sleep(2000);
 			  
-			  driver.findElement(By.xpath(objectrepo.getProperty("EmpEditAboutUsIcon"))).click();	 
-			  log.info("Edit About US Icon Clicked");
-			  Thread.sleep(2000);
+			   driver.findElement(By.xpath(objectrepo.getProperty("UniversityOverview"))).click();	 
+			   Thread.sleep(2000);
+	           log.info("Overview Menu clicked");
+	           
+	           
+	           driver.findElement(By.xpath(objectrepo.getProperty("FirstEmpLocationSection"))).click();	 
+				  log.info("Edit Employer Profile Icon Clicked");
+				  Thread.sleep(2000);
+				  
+		 
 			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("CancelButton"))).click();	 
 
-			  driver.findElement(By.xpath(objectrepo.getProperty("EmpEditAboutUsIcon"))).click();	 
+			  driver.findElement(By.xpath(objectrepo.getProperty("FirstEmpLocationSection"))).click();	 
 
 			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmpAboutUSTextbox"))).clear();
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmpAboutUSTextbox"))).sendKeys(Aboutus);
-
+			  driver.findElement(By.xpath(objectrepo.getProperty("EmployeeSizeDropdown"))).click();	 
+			
+			  
+			  log.info("Student Size Dropdown Clicked ");
+				 Thread.sleep(2000); 
+				 
+			   driver.findElement(By.xpath(objectrepo.getProperty("StudentSizeOption"))).click();	 
+			   log.info("Student Size Option Selected");
+				 Thread.sleep(2000); 
+				 
+				 
+				 
 			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	 
-			  Thread.sleep(2000);
-			  driver.getPageSource().contains(Aboutus);
+			  Thread.sleep(2000); 
+			  log.info("Save Button Clicked");
+	 
 
+    driver.findElement(By.xpath(objectrepo.getProperty("UniProfileUpdateMessage")));	 
+    Thread.sleep(2000);
+ log.info("Profile updated successfully message displayed");
+ driver.getPageSource().contains(Aboutus);
 			  log.info("About us updated Succesfully ");
-			  
-					  
-			  
-			  
-			  
+			 
 			  
 		   
 			    log.info("End TEST-------------------------- EmpUpdateAboutUsProfile------------------------");     

@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33386" started-at="2021-04-12T15:26:34 WAT" finished-at="2021-04-12T15:27:07 WAT">
+  <suite name="Default suite" duration-ms="35361" started-at="2021-04-22T11:20:16 WAT" finished-at="2021-04-22T11:20:52 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33386" started-at="2021-04-12T15:26:34 WAT" finished-at="2021-04-12T15:27:07 WAT">
-      <class name="company.SearchOpenJobs">
-        <test-method status="PASS" signature="setUp1()[pri:0, instance:company.SearchOpenJobs@57d5872c]" name="setUp1" is-config="true" duration-ms="20728" started-at="2021-04-12T15:26:34 WAT" finished-at="2021-04-12T15:26:55 WAT">
+    <test name="Default test" duration-ms="35361" started-at="2021-04-22T11:20:16 WAT" finished-at="2021-04-22T11:20:52 WAT">
+      <class name="company.ViewEmployerJobs">
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:company.ViewEmployerJobs@57d5872c]" name="setUp1" is-config="true" duration-ms="26665" started-at="2021-04-22T11:20:16 WAT" finished-at="2021-04-22T11:20:43 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method status="PASS" signature="testSearchOpenJobs()[pri:0, instance:company.SearchOpenJobs@57d5872c]" name="testSearchOpenJobs" duration-ms="12468" started-at="2021-04-12T15:26:55 WAT" finished-at="2021-04-12T15:27:07 WAT">
+        <test-method status="PASS" signature="testViewEmployerJobs()[pri:0, instance:company.ViewEmployerJobs@57d5872c]" name="testViewEmployerJobs" duration-ms="8504" started-at="2021-04-22T11:20:43 WAT" finished-at="2021-04-22T11:20:52 WAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchOpenJobs -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:company.SearchOpenJobs@57d5872c]" name="screenShot" is-config="true" duration-ms="151" started-at="2021-04-12T15:27:07 WAT" finished-at="2021-04-12T15:27:07 WAT">
+        </test-method> <!-- testViewEmployerJobs -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:company.ViewEmployerJobs@57d5872c]" name="screenShot" is-config="true" duration-ms="138" started-at="2021-04-22T11:20:52 WAT" finished-at="2021-04-22T11:20:52 WAT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchOpenJobs status=SUCCESS method=SearchOpenJobs.testSearchOpenJobs()[pri:0, instance:company.SearchOpenJobs@57d5872c] output={null}]]]>
+                <![CDATA[[TestResult name=testViewEmployerJobs status=SUCCESS method=ViewEmployerJobs.testViewEmployerJobs()[pri:0, instance:company.ViewEmployerJobs@57d5872c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-      </class> <!-- company.SearchOpenJobs -->
+      </class> <!-- company.ViewEmployerJobs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

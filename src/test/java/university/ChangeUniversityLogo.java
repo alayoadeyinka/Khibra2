@@ -123,14 +123,31 @@ public class ChangeUniversityLogo extends UniversityUtility{
 			  log.info("University Profile Menu   Clicked ");
 	     Thread.sleep(2000);
 	     
-	     
+		  driver.findElement(By.xpath(objectrepo.getProperty("UniversityMedia")));	 
+		  driver.findElement(By.xpath(objectrepo.getProperty("UniversityOverview"))).click();
+		  log.info("Overview Tab Clicked ");
+		  
+		  driver.findElement(By.xpath(objectrepo.getProperty("EditUniProfileIcon"))).click();
+		  log.info("Edit  Profile Icon   Clicked ");
+		  
 	     
  driver.findElement(By.xpath(objectrepo.getProperty("EditUniLogoIcon"))).sendKeys(System.getProperty("user.dir")+Unilogo);
-	     log.info("Image Selected and uploaded successfully ");
+	     log.info("Image Selected Successfully ");
 	     Thread.sleep(2000);
+	     driver.findElement(By.xpath(objectrepo.getProperty("Successlogomessage")));	 
+		  log.info("Logo Updated successfully ");
+		  Thread.sleep(2000);
+	     driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();
+		  log.info("Save Button  Clicked ");
+	    
+		  driver.findElement(By.xpath(objectrepo.getProperty("UniProfileUpdateMessage")));	 
+		  log.info("Profile Saved successfully ");
+		
+	     
+	 
 	     
 	     
-  
+	     
 			 
 
 			    log.info("End TEST-------------------------- ChangeUniversityLogo------------------------");     

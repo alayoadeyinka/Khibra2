@@ -140,6 +140,12 @@ public class EmpUpdateSocialMediaProfile extends EmployerUtility{
 			  log.info("Employer Profile MenuClicked");
 			  Thread.sleep(2000);
 			  
+			  
+			  
+			   driver.findElement(By.xpath(objectrepo.getProperty("UniversityOverview"))).click();	 
+			   Thread.sleep(2000);
+	           log.info("Overview Menu clicked");
+			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmpEditSocialMediaIcon"))).click();	 
 			  log.info("Edit  Social Media Icon Clicked");
 			  Thread.sleep(2000);
@@ -165,6 +171,11 @@ public class EmpUpdateSocialMediaProfile extends EmployerUtility{
 			   driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	
 			 	 Thread.sleep(2000);
 			   log.info("SaveButton Button Clicked ");
+			   
+			   
+			    driver.findElement(By.xpath(objectrepo.getProperty("LinksUpdatedSuccess")));	 
+			    Thread.sleep(2000);
+			 log.info("Links updated successfully message displayed");
 			   
 			   driver.getPageSource().contains(Website);
 			   driver.getPageSource().contains(Facebook);

@@ -143,16 +143,15 @@ public class AddEmployerLocation extends EmployerUtility{
   driver.findElement(By.xpath(objectrepo.getProperty("LocationTitle"))).sendKeys(Title);
   
   driver.findElement(By.xpath(objectrepo.getProperty("LocationAddress"))).sendKeys(Address);
-  driver.findElement(By.xpath(objectrepo.getProperty("LocationArea"))).click();
- 
-  Actions keyDown = new Actions(driver); 
+  
 
-  keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.ENTER)).perform();
-		   
+ 	   
   Thread.sleep(2000);
 		   
-  driver.findElement(By.xpath(objectrepo.getProperty("LocationCountry"))).click();
-  
+ // driver.findElement(By.xpath(objectrepo.getProperty("LocationCountry"))).click();
+
+  driver.findElement(By.xpath(objectrepo.getProperty("LocationCountry"))).sendKeys("Kuwait");
+  Actions keyDown = new Actions(driver); 
   keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.ENTER)).perform();
 		   
   Thread.sleep(2000);

@@ -117,9 +117,23 @@ public class ChangeEmployerLogo extends EmployerUtility{
 			  log.info("Employer Profile MenuClicked");
 			  Thread.sleep(2000);
 			  
+	  driver.findElement(By.xpath(objectrepo.getProperty("EditEmployerIcon"))).click();	 
+	 log.info("Edit Employer Icon Clicked");
+	  
+			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("EditUniLogoIcon"))).sendKeys(System.getProperty("user.dir")+Emplogo);
 			  log.info("Image Selected ");
-			  Thread.sleep(12000);  
+			  Thread.sleep(2000);  
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("Successlogomessage")));	 
+			  log.info("Logo Updated successfully ");
+			  Thread.sleep(2000);
+		     driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();
+			  log.info("Save Button  Clicked ");
+		    
+			  driver.findElement(By.xpath(objectrepo.getProperty("UniProfileUpdateMessage")));	 
+			  log.info("Profile Saved successfully ");
+			
 			 
 			    log.info("End TEST--------------------------ChangeEmployerLogo------------------------");     
 	    
